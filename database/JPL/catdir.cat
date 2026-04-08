@@ -1,0 +1,590 @@
+<html>
+<!-- Mirrored from spec.jpl.nasa.gov/ftp/pub/catalog/catdir.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Mar 2026 07:00:07 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><title></title>
+
+<script language="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+<link rel="stylesheet" href="common.css" type="text/css">
+</head>
+
+<body>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td bgcolor="#ffffff" align="center">
+<tr><td bgcolor="#000000">
+
+
+
+<table border="0" cellspacing="0" cellpadding="0" align="center" valign="top" bgcolor="#FFFFFF" width="750">
+<tr bgcolor="#000000">
+<td bgcolor="#000000" width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+<td bgcolor="#000000" width="730"><img src="art/spacer.gif" alt="spacer" width="730" height="10"></td>
+<td bgcolor="#000000" width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+</tr>
+<tr>
+<td width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+<td width="730"><img src="art/spacer.gif" alt="spacer" width="730" height="10"></td>
+<td width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+</tr>
+<tr>
+<td width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+<td width="730">
+	<table cellpadding="0" cellspacing="0" border="0" width="730">
+		<tr>
+			<td>
+				<table cellpadding="0" cellspacing="0" border="0" width="730">
+					<tr>
+						<td width="379" bgcolor="#cccccc"><img src="art/nasa_logo.gif" alt="NASA Logo - Jet Propulsion Laboratory" border="0" width="379" height="65" usemap="#Map"></td>
+						<td width="171"  bgcolor="#cccccc">&nbsp;&nbsp;&nbsp;<a class="navLnkBlack" href="http://www.nasa.gov/">+ View the NASA Portal</a></td>
+						<td width="180" bgcolor="#006699" align="center" valign="middle"><font size="2" face="arial" color="#ffffff">Search JPL</font>
+						<form method="get" action="http://search.jpl.nasa.gov:8080/cgi-bin/htsearch">
+						<input type="textbox" name="words" size="10" maxlength="200" value="" alt=""><input title="search" type="image" height="14" width="16" src="art/arrow.gif" name="search" border="0">
+                		</form>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+<tr><td><img src="art/spacer.gif" width="730" height="3" alt=""></td></tr>
+        <tr> 
+          <td>	<table cellpadding="0" cellspacing="0" border="0"><tr>
+			<td><a href="http://www.jpl.nasa.gov/index.cfm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','art/topnav_01.gif',1)"><img name="home" border="0" alt="JPL Home" src="art/topnavoff_01.gif"></a></td>
+			<td><a href="http://www.jpl.nasa.gov/earth/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('earth','','art/topnav_02.gif',1)"><img name="earth" border="0" alt="Earth" src="art/topnavoff_02.gif"></a></td>
+			<td><a href="http://www.jpl.nasa.gov/solar_system/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('solar_system','','art/topnav_03.gif',1)"><img name="solar_system" alt="Solar System" border="0" src="art/topnavoff_03.gif"></a></td>
+			<td><a href="http://www.jpl.nasa.gov/stars_galaxies/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('stars','','art/topnav_04.gif',1)"><img name="stars" border="0" alt="Stars & Galaxies" src="art/topnavoff_04.gif"></a></td>
+			<td><a href="http://www.jpl.nasa.gov/technology/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('technology','','art/topnav_05.gif',1)"><img name="technology" border="0" alt="Technology" src="art/topnavoff_05.gif"></a></td>
+		</tr></table>
+	  </td>
+        </tr>
+		<tr>
+			
+        <td width="730"><img src="art/spec_mast.gif" width="730" vspace="3" height="100" alt="Jet Propulsion Laboratory" border="0"></td>
+		</tr>
+	</table>
+</td>
+<td width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+</tr>
+		
+<tr>
+<td width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+<td width="730"><img src="art/spacer.gif" alt="spacer" width="730" height="10"></td>
+<td width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+</tr>
+
+<tr>
+<td width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+<td>
+
+<div align="left"><font face="arial">
+<H1>Catalog Directory</H1></font>
+<PRE>    ID Name        # lines Ver.  Catalog    Documentation
+  1001 H-atom            1  1  <A  HREF="c001001.html">c001001.cat</A> <A HREF="doc/d001001.pdf">pdf</A> or <A HREF="doc/d001001.cat">Tex</A> format
+  2001 D-atom            1  1  <A  HREF="c002001.html">c002001.cat</A> <A HREF="doc/d002001.pdf">pdf</A> or <A HREF="doc/d002001.cat">Tex</A> format
+  3001 HD                1  2  <A  HREF="c003001.html">c003001.cat</A> <A HREF="doc/d003001.pdf">pdf</A> or <A HREF="doc/d003001.cat">Tex</A> format
+  4001 H2D+             32  2* <A  HREF="c004001.html">c004001.cat</A> <A HREF="doc/d004001.pdf">pdf</A> or <A HREF="doc/d004001.cat">Tex</A> format
+  7001 Li-6-H           51  2* <A  HREF="c007001.html">c007001.cat</A> <A HREF="doc/d007001.pdf">pdf</A> or <A HREF="doc/d007001.cat">Tex</A> format
+  8001 LiH              53  2* <A  HREF="c008001.html">c008001.cat</A> <A HREF="doc/d008001.pdf">pdf</A> or <A HREF="doc/d008001.cat">Tex</A> format
+  8002 Li-6-D           80  1  <A  HREF="c008002.html">c008002.cat</A> <A HREF="doc/d008002.pdf">pdf</A> or <A HREF="doc/d008002.cat">Tex</A> format
+  9001 LiD              90  1  <A  HREF="c009001.html">c009001.cat</A> <A HREF="doc/d009001.pdf">pdf</A> or <A HREF="doc/d009001.cat">Tex</A> format
+ 12001 C-atom            2  2  <A  HREF="c012001.html">c012001.cat</A> <A HREF="doc/d012001.pdf">pdf</A> or <A HREF="doc/d012001.cat">Tex</A> format
+ 13001 C-13-atom         7  2  <A  HREF="c013001.html">c013001.cat</A> <A HREF="doc/d013001.pdf">pdf</A> or <A HREF="doc/d013001.cat">Tex</A> format
+ 13002 CH              508  2* <A  HREF="c013002.html">c013002.cat</A> <A HREF="doc/d013002.pdf">pdf</A> or <A HREF="doc/d013002.cat">Tex</A> format
+ 13003 CH+               9  2  <A  HREF="c013003.html">c013003.cat</A> <A HREF="doc/d013003.pdf">pdf</A> or <A HREF="doc/d013003.html">Tex</A> format
+ 14001 N-atom            2  1  <A  HREF="c014001.html">c014001.cat</A> <A HREF="doc/d014001.pdf">pdf</A> or <A HREF="doc/d014001.cat">Tex</A> format
+ 14002 N-atom-D-st       6  3  <A  HREF="c014002.html">c014002.cat</A> <A HREF="doc/d014002.pdf">pdf</A> or <A HREF="doc/d014002.cat">Tex</A> format
+ 14003 13CH            648  1* <A  HREF="c014003.html">c014003.cat</A> <A HREF="doc/d014003.pdf">pdf</A> or <A HREF="doc/d014003.cat">Tex</A> format
+ 14004 CD              188  1* <A  HREF="c014004.html">c014004.cat</A> <A HREF="doc/d014004.pdf">pdf</A> or <A HREF="doc/d014004.cat">Tex</A> format
+ 15001 NH             1416  1* <A  HREF="c015001.html">c015001.cat</A> <A HREF="doc/d015001.pdf">pdf</A> or <A HREF="doc/d015001.cat">Tex</A> format
+ 16001 O-atom            2  2  <A  HREF="c016001.html">c016001.cat</A> <A HREF="doc/d016001.pdf">pdf</A> or <A HREF="doc/d016001.cat">Tex</A> format
+ 17001 OH             3153  5* <A  HREF="c017001.html">c017001.cat</A> <A HREF="doc/d017001.pdf">pdf</A> or <A HREF="doc/d017001.cat">Tex</A> format
+ 17002 NH3            1716  5* <A  HREF="c017002.html">c017002.cat</A> <A HREF="doc/d017002.pdf">pdf</A> or <A HREF="doc/d017002.html">Tex</A> format
+ 17003 CH3D            203  4* <A  HREF="c017003.html">c017003.cat</A> <A HREF="doc/d017003.pdf">pdf</A> or <A HREF="doc/d017003.cat">Tex</A> format
+ 17004 NH3-v2         4198  5* <A  HREF="c017004.html">c017004.cat</A> <A HREF="doc/d017004.pdf">pdf</A> or <A HREF="doc/d017004.html">Tex</A> format
+ 18001 OD             9351  2  <A  HREF="c018001.html">c018001.cat</A> <A HREF="doc/d018001.pdf">pdf</A> or <A HREF="doc/d018001.cat">Tex</A> format
+ 18002 N-15-H3         235  2  <A  HREF="c018002.html">c018002.cat</A> <A HREF="doc/d018002.pdf">pdf</A> or <A HREF="doc/d018002.cat">Tex</A> format
+ 18003 H2O            1376  6* <A  HREF="c018003.html">c018003.cat</A> <A HREF="doc/d018003.pdf">pdf</A> or <A HREF="doc/d018003.cat">Tex</A> format
+ 18004 NH2D           5036  1  <A  HREF="c018004.html">c018004.cat</A> <A HREF="doc/d018004.pdf">pdf</A> or <A HREF="doc/d018004.cat">Tex</A> format
+ 18005 H2O v2,2v2,v   8608  4* <A  HREF="c018005.html">c018005.cat</A> <A HREF="doc/d018005.pdf">pdf</A> or <A HREF="doc/d018005.html">Tex</A> format
+ 18006 13CH3D          143  1* <A  HREF="c018006.html">c018006.cat</A> <A HREF="doc/d018006.pdf">pdf</A> or <A HREF="doc/d018006.cat">Tex</A> format
+ 18007 17OH          46769  1* <A  HREF="c018007.html">c018007.cat</A> <A HREF="doc/d018007.pdf">pdf</A> or <A HREF="doc/d018007.cat">Tex</A> format
+ 19001 HO-18          3159  3  <A  HREF="c019001.html">c019001.cat</A> <A HREF="doc/d019001.pdf">pdf</A> or <A HREF="doc/d019001.cat">Tex</A> format
+ 19002 HDO            1401  3  <A  HREF="c019002.html">c019002.cat</A> <A HREF="doc/d019002.pdf">pdf</A> or <A HREF="doc/d019002.cat">Tex</A> format
+ 19003 H2O-17          404  1  <A  HREF="c019003.html">c019003.cat</A> <A HREF="doc/d019003.pdf">pdf</A> or <A HREF="doc/d019003.cat">Tex</A> format
+ 19004 H3O+            304  3* <A  HREF="c019004.html">c019004.cat</A> <A HREF="doc/d019004.pdf">pdf</A> or <A HREF="doc/d019004.cat">Tex</A> format
+ 19005 H3O+ v1,v3,v   1973  2* <A  HREF="c019005.html">c019005.cat</A> <A HREF="doc/d019005.pdf">pdf</A> or <A HREF="doc/d019005.cat">Tex</A> format
+ 19006 17OD         113226  1* <A  HREF="c019006.html">c019006.cat</A> <A HREF="doc/d019006.pdf">pdf</A> or <A HREF="doc/d019006.cat">Tex</A> format
+ 20001 D2O            1137  2  <A  HREF="c020001.html">c020001.cat</A> <A HREF="doc/d020001.pdf">pdf</A> or <A HREF="doc/d020001.cat">Tex</A> format
+ 20002 HF                8  1  <A  HREF="c020002.html">c020002.cat</A> <A HREF="doc/d020002.pdf">pdf</A> or <A HREF="doc/d020002.cat">Tex</A> format
+ 20003 H2O-18          726  1  <A  HREF="c020003.html">c020003.cat</A> <A HREF="doc/d020003.pdf">pdf</A> or <A HREF="doc/d020003.cat">Tex</A> format
+ 20004 18OD           3632  1* <A  HREF="c020004.html">c020004.cat</A> <A HREF="doc/d020004.pdf">pdf</A> or <A HREF="doc/d020004.cat">Tex</A> format
+ 21001 HDO-18          952  1  <A  HREF="c021001.html">c021001.cat</A> <A HREF="doc/d021001.pdf">pdf</A> or <A HREF="doc/d021001.html">Tex</A> format
+ 21002 DF               20  1  <A  HREF="c021002.html">c021002.cat</A> <A HREF="doc/d021002.pdf">pdf</A> or <A HREF="doc/d021002.cat">Tex</A> format
+ 25001 CCH             114  1  <A  HREF="c025001.html">c025001.cat</A> <A HREF="doc/d025001.pdf">pdf</A> or <A HREF="doc/d025001.cat">Tex</A> format
+ 25002 NaH              52  1  <A  HREF="c025002.html">c025002.cat</A> <A HREF="doc/d025002.pdf">pdf</A> or <A HREF="doc/d025002.cat">Tex</A> format
+ 26001 CN, v = 0, 1    874  2  <A  HREF="c026001.html">c026001.cat</A> <A HREF="doc/d026001.pdf">pdf</A> or <A HREF="doc/d026001.cat">Tex</A> format
+ 26002 C2H2           2066  1* <A  HREF="c026002.html">c026002.cat</A> <A HREF="doc/d026002.pdf">pdf</A> or <A HREF="doc/d026002.cat">Tex</A> format
+ 27001 HCN              40  2  <A  HREF="c027001.html">c027001.cat</A> <A HREF="doc/d027001.pdf">pdf</A> or <A HREF="doc/d027001.cat">Tex</A> format
+ 27002 HNC              49  2  <A  HREF="c027002.html">c027002.cat</A> <A HREF="doc/d027002.pdf">pdf</A> or <A HREF="doc/d027002.cat">Tex</A> format
+ 27003 HCN-v2          132  1  <A  HREF="c027003.html">c027003.cat</A> <A HREF="doc/d027003.pdf">pdf</A> or <A HREF="doc/d027003.cat">Tex</A> format
+ 27004 C-13-N         1218  1  <A  HREF="c027004.html">c027004.cat</A> <A HREF="doc/d027004.pdf">pdf</A> or <A HREF="doc/d027004.cat">Tex</A> format
+ 28001 CO               91  4* <A  HREF="c028001.html">c028001.cat</A> <A HREF="doc/d028001.pdf">pdf</A> or <A HREF="doc/d028001.cat">Tex</A> format
+ 28002 HC-13-N          45  1  <A  HREF="c028002.html">c028002.cat</A> <A HREF="doc/d028002.pdf">pdf</A> or <A HREF="doc/d028002.cat">Tex</A> format
+ 28003 HCN-15           35  1  <A  HREF="c028003.html">c028003.cat</A> <A HREF="doc/d028003.pdf">pdf</A> or <A HREF="doc/d028003.cat">Tex</A> format
+ 28004 DCN              54  1  <A  HREF="c028004.html">c028004.cat</A> <A HREF="doc/d028004.pdf">pdf</A> or <A HREF="doc/d028004.cat">Tex</A> format
+ 28005 HNC-13           34  1  <A  HREF="c028005.html">c028005.cat</A> <A HREF="doc/d028005.pdf">pdf</A> or <A HREF="doc/d028005.cat">Tex</A> format
+ 28006 HN-15-C          33  1  <A  HREF="c028006.html">c028006.cat</A> <A HREF="doc/d028006.pdf">pdf</A> or <A HREF="doc/d028006.cat">Tex</A> format
+ 28007 DNC              53  2  <A  HREF="c028007.html">c028007.cat</A> <A HREF="doc/d028007.pdf">pdf</A> or <A HREF="doc/d028007.cat">Tex</A> format
+ 28008 HCNH+            74  1  <A  HREF="c028008.html">c028008.cat</A> <A HREF="doc/d028008.pdf">pdf</A> or <A HREF="doc/d028008.cat">Tex</A> format
+ 28009 CO+              88  1  <A  HREF="c028009.html">c028009.cat</A> <A HREF="doc/d028009.pdf">pdf</A> or <A HREF="doc/d028009.cat">Tex</A> format
+ 28010 DCCD           6940  1* <A  HREF="c028010.html">c028010.cat</A> <A HREF="doc/d028010.pdf">pdf</A> or <A HREF="doc/d028010.cat">Tex</A> format
+ 29001 C-13-O           60  3* <A  HREF="c029001.html">c029001.cat</A> <A HREF="doc/d029001.pdf">pdf</A> or <A HREF="doc/d029001.cat">Tex</A> format
+ 29002 HCO+ v=0,1,2    373  4* <A  HREF="c029002.html">c029002.cat</A> <A HREF="doc/d029002.pdf">pdf</A> or <A HREF="doc/d029002.cat">Tex</A> format
+ 29003 CH2NH          2957  2  <A  HREF="c029003.html">c029003.cat</A> <A HREF="doc/d029003.pdf">pdf</A> or <A HREF="doc/d029003.cat">Tex</A> format
+ 29004 HCO            2454  1  <A  HREF="c029004.html">c029004.cat</A> <A HREF="doc/d029004.pdf">pdf</A> or <A HREF="doc/d029004.cat">Tex</A> format
+ 29005 NNH+             34  1  <A  HREF="c029005.html">c029005.cat</A> <A HREF="doc/d029005.pdf">pdf</A> or <A HREF="doc/d029005.cat">Tex</A> format
+ 29006 CO-17            50  2* <A  HREF="c029006.html">c029006.cat</A> <A HREF="doc/d029006.pdf">pdf</A> or <A HREF="doc/d029006.cat">Tex</A> format
+ 29007 HOC+             40  1  <A  HREF="c029007.html">c029007.cat</A> <A HREF="doc/d029007.pdf">pdf</A> or <A HREF="doc/d029007.cat">Tex</A> format
+ 30001 CO-18            60  3* <A  HREF="c030001.html">c030001.cat</A> <A HREF="doc/d030001.pdf">pdf</A> or <A HREF="doc/d030001.cat">Tex</A> format
+ 30002 HC-13-O+         40  3  <A  HREF="c030002.html">c030002.cat</A> <A HREF="doc/d030002.pdf">pdf</A> or <A HREF="doc/d030002.html">Tex</A> format
+ 30003 DCO+           1041  3  <A  HREF="c030003.html">c030003.cat</A> <A HREF="doc/d030003.pdf">pdf</A> or <A HREF="doc/d030003.cat">Tex</A> format
+ 30004 H2CO           3506  2* <A  HREF="c030004.html">c030004.cat</A> <A HREF="doc/d030004.pdf">pdf</A> or <A HREF="doc/d030004.cat">Tex</A> format
+ 30005 C-13-H2NH       439  1  <A  HREF="c030005.html">c030005.cat</A> <A HREF="doc/d030005.pdf">pdf</A> or <A HREF="doc/d030005.cat">Tex</A> format
+ 30006 CH2N-15-H       440  1  <A  HREF="c030006.html">c030006.cat</A> <A HREF="doc/d030006.pdf">pdf</A> or <A HREF="doc/d030006.cat">Tex</A> format
+ 30007 CH2ND          1834  1  <A  HREF="c030007.html">c030007.cat</A> <A HREF="doc/d030007.pdf">pdf</A> or <A HREF="doc/d030007.cat">Tex</A> format
+ 30008 NO             9756  2  <A  HREF="c030008.html">c030008.cat</A> <A HREF="doc/d030008.pdf">pdf</A> or <A HREF="doc/d030008.cat">Tex</A> format
+ 30009 NND+             41  1  <A  HREF="c030009.html">c030009.cat</A> <A HREF="doc/d030009.pdf">pdf</A> or <A HREF="doc/d030009.cat">Tex</A> format
+ 30010 HOC-13+          40  1  <A  HREF="c030010.html">c030010.cat</A> <A HREF="doc/d030010.pdf">pdf</A> or <A HREF="doc/d030010.cat">Tex</A> format
+ 30011 NO+             154  1  <A  HREF="c030011.html">c030011.cat</A> <A HREF="doc/d030011.pdf">pdf</A> or <A HREF="doc/d030011.cat">Tex</A> format
+ 30012 DOC+             40  1  <A  HREF="c030012.html">c030012.cat</A> <A HREF="doc/d030012.pdf">pdf</A> or <A HREF="doc/d030012.cat">Tex</A> format
+ 31001 HCO-18+          34  2  <A  HREF="c031001.html">c031001.cat</A> <A HREF="doc/d031001.pdf">pdf</A> or <A HREF="doc/d031001.html">Tex</A> format
+ 31002 H2C-13-O       2309  2* <A  HREF="c031002.html">c031002.cat</A> <A HREF="doc/d031002.pdf">pdf</A> or <A HREF="doc/d031002.cat">Tex</A> format
+ 31003 HDCO           4204  1  <A  HREF="c031003.html">c031003.cat</A> <A HREF="doc/d031003.pdf">pdf</A> or <A HREF="doc/d031003.cat">Tex</A> format
+ 31004 HO-18-C+         40  1  <A  HREF="c031004.html">c031004.cat</A> <A HREF="doc/d031004.pdf">pdf</A> or <A HREF="doc/d031004.cat">Tex</A> format
+ 31005 HNO           10293  1  <A  HREF="c031005.html">c031005.cat</A> <A HREF="doc/d031005.pdf">pdf</A> or <A HREF="doc/d031005.cat">Tex</A> format
+ 31006 Methoxy       10936  1* <A  HREF="c031006.html">c031006.cat</A> <A HREF="doc/d031006.pdf">pdf</A> or <A HREF="doc/d031006.cat">Tex</A> format
+ 31007 D13CO+           40  1* <A  HREF="c031007.html">c031007.cat</A> <A HREF="doc/d031007.pdf">pdf</A> or <A HREF="doc/d031007.html">Tex</A> format
+ 31008 CH3NH2        28298  1* <A  HREF="c031008.html">c031008.cat</A> <A HREF="doc/d031008.pdf">pdf</A> or <A HREF="doc/d031008.cat">Tex</A> format
+ 31009 15-NO          4912  1* <A  HREF="c031009.html">c031009.cat</A> <A HREF="doc/d031009.pdf">pdf</A> or <A HREF="doc/d031009.cat">Tex</A> format
+ 31010 CH3CH2D       25678  1* <A  HREF="c031010.html">c031010.cat</A> <A HREF="doc/d031010.pdf">pdf</A> or <A HREF="doc/d031010.cat">Tex</A> format
+ 32001 O2              336  5* <A  HREF="c032001.html">c032001.cat</A> <A HREF="doc/d032001.pdf">pdf</A> or <A HREF="doc/d032001.cat">Tex</A> format
+ 32002 O2-v1           336  6* <A  HREF="c032002.html">c032002.cat</A> <A HREF="doc/d032002.pdf">pdf</A> or <A HREF="doc/d032002.cat">Tex</A> format
+ 32003 CH3OH         83543  3* <A  HREF="c032003.html">c032003.cat</A> <A HREF="doc/d032003.pdf">pdf</A> or <A HREF="doc/d032003.cat">Tex</A> format
+ 32004 H2CO-18         449  1  <A  HREF="c032004.html">c032004.cat</A> <A HREF="doc/d032004.pdf">pdf</A> or <A HREF="doc/d032004.cat">Tex</A> format
+ 32005 O2-snglt-dlta    52  2* <A  HREF="c032005.html">c032005.cat</A> <A HREF="doc/d032005.pdf">pdf</A> or <A HREF="doc/d032005.cat">Tex</A> format
+ 32006 D2CO           3682  1  <A  HREF="c032006.html">c032006.cat</A> <A HREF="doc/d032006.pdf">pdf</A> or <A HREF="doc/d032006.cat">Tex</A> format
+ 32007 DNO           14739  1  <A  HREF="c032007.html">c032007.cat</A> <A HREF="doc/d032007.pdf">pdf</A> or <A HREF="doc/d032007.cat">Tex</A> format
+ 33001 HO2           21954  4  <A  HREF="c033001.html">c033001.cat</A> <A HREF="doc/d033001.pdf">pdf</A> or <A HREF="doc/d033001.cat">Tex</A> format
+ 33002 O-17-O        10787  2  <A  HREF="c033002.html">c033002.cat</A> <A HREF="doc/d033002.pdf">pdf</A> or <A HREF="doc/d033002.cat">Tex</A> format
+ 33003 SH v=0,1        646  1* <A  HREF="c033003.html">c033003.cat</A> <A HREF="doc/d033003.pdf">pdf</A> or <A HREF="doc/d033003.cat">Tex</A> format
+ 33004 CH2DOH        89098  1* <A  HREF="c033004.html">c033004.cat</A> <A HREF="doc/d033004.pdf">pdf</A> or <A HREF="doc/d033004.cat">Tex</A> format
+ 34001 O-18-O          672  5* <A  HREF="c034001.html">c034001.cat</A> <A HREF="doc/d034001.pdf">pdf</A> or <A HREF="doc/d034001.cat">Tex</A> format
+ 34002 H2S            1525  3  <A  HREF="c034002.html">c034002.cat</A> <A HREF="doc/d034002.pdf">pdf</A> or <A HREF="doc/d034002.cat">Tex</A> format
+ 34003 PH3             728  3  <A  HREF="c034003.html">c034003.cat</A> <A HREF="doc/d034003.pdf">pdf</A> or <A HREF="doc/d034003.cat">Tex</A> format
+ 34004 H2O2          38357  4  <A  HREF="c034004.html">c034004.cat</A> <A HREF="doc/d034004.pdf">pdf</A> or <A HREF="doc/d034004.cat">Tex</A> format
+ 34005 SD             1125  1* <A  HREF="c034005.html">c034005.cat</A> <A HREF="doc/d034005.pdf">pdf</A> or <A HREF="doc/d034005.cat">Tex</A> format
+ 35001 HDS            1138  1  <A  HREF="c035001.html">c035001.cat</A> <A HREF="doc/d035001.pdf">pdf</A> or <A HREF="doc/d035001.cat">Tex</A> format
+ 36001 HCl             137  2  <A  HREF="c036001.html">c036001.cat</A> <A HREF="doc/d036001.pdf">pdf</A> or <A HREF="doc/d036001.cat">Tex</A> format
+ 36002 18-O2           246  2* <A  HREF="c036002.html">c036002.cat</A> <A HREF="doc/d036002.pdf">pdf</A> or <A HREF="doc/d036002.cat">Tex</A> format
+ 36003 HOF            1270  1* <A  HREF="c036003.html">c036003.cat</A> <A HREF="doc/d036003.pdf">pdf</A> or <A HREF="doc/d036003.cat">Tex</A> format
+ 36004 HCl+            779  2* <A  HREF="c036004.html">c036004.cat</A> <A HREF="doc/d036004.pdf">pdf</A> or <A HREF="doc/d036004.cat">Tex</A> format
+ 36005 HCl+ IRUV      2583  2* <A  HREF="c036005.html">c036005.cat</A> <A HREF="doc/d036005.pdf">pdf</A> or <A HREF="doc/d036005.cat">Tex</A> format
+ 37001 DCl             228  1  <A  HREF="c037001.html">c037001.cat</A> <A HREF="doc/d037001.pdf">pdf</A> or <A HREF="doc/d037001.cat">Tex</A> format
+ 37002 C3H            4990  1  <A  HREF="c037002.html">c037002.cat</A> <A HREF="doc/d037002.pdf">pdf</A> or <A HREF="doc/d037002.cat">Tex</A> format
+ 37003 c-C3H          2973  1  <A  HREF="c037003.html">c037003.cat</A> <A HREF="doc/d037003.pdf">pdf</A> or <A HREF="doc/d037003.cat">Tex</A> format
+ 37004 DCl+            207  2* <A  HREF="c037004.html">c037004.cat</A> <A HREF="doc/d037004.pdf">pdf</A> or <A HREF="doc/d037004.cat">Tex</A> format
+ 37005 DCl+ IRUV       724  2* <A  HREF="c037005.html">c037005.cat</A> <A HREF="doc/d037005.pdf">pdf</A> or <A HREF="doc/d037005.cat">Tex</A> format
+ 38001 HCl-37          137  2  <A  HREF="c038001.html">c038001.cat</A> <A HREF="doc/d038001.pdf">pdf</A> or <A HREF="doc/d038001.cat">Tex</A> format
+ 38002 c-C3H2        30436  2  <A  HREF="c038002.html">c038002.cat</A> <A HREF="doc/d038002.pdf">pdf</A> or <A HREF="doc/d038002.cat">Tex</A> format
+ 38003 C3D            1560  1  <A  HREF="c038003.html">c038003.cat</A> <A HREF="doc/d038003.pdf">pdf</A> or <A HREF="doc/d038003.cat">Tex</A> format
+ 38004 c-CCC-13-H     6541  1  <A  HREF="c038004.html">c038004.cat</A> <A HREF="doc/d038004.pdf">pdf</A> or <A HREF="doc/d038004.cat">Tex</A> format
+ 38005 c-C-13-CCH     9753  1  <A  HREF="c038005.html">c038005.cat</A> <A HREF="doc/d038005.pdf">pdf</A> or <A HREF="doc/d038005.cat">Tex</A> format
+ 38006 c-C3D          6001  1  <A  HREF="c038006.html">c038006.cat</A> <A HREF="doc/d038006.pdf">pdf</A> or <A HREF="doc/d038006.cat">Tex</A> format
+ 38007 H37Cl+          779  2* <A  HREF="c038007.html">c038007.cat</A> <A HREF="doc/d038007.pdf">pdf</A> or <A HREF="doc/d038007.cat">Tex</A> format
+ 38008 H37Cl+IRUV     2583  2* <A  HREF="c038008.html">c038008.cat</A> <A HREF="doc/d038008.pdf">pdf</A> or <A HREF="doc/d038008.cat">Tex</A> format
+ 39001 c-HC-13-CCH   17768  2  <A  HREF="c039001.html">c039001.cat</A> <A HREF="doc/d039001.pdf">pdf</A> or <A HREF="doc/d039001.cat">Tex</A> format
+ 39002 c-HCC-13-CH    6892  2  <A  HREF="c039002.html">c039002.cat</A> <A HREF="doc/d039002.pdf">pdf</A> or <A HREF="doc/d039002.cat">Tex</A> format
+ 39003 c-C3HD        21610  2  <A  HREF="c039003.html">c039003.cat</A> <A HREF="doc/d039003.pdf">pdf</A> or <A HREF="doc/d039003.cat">Tex</A> format
+ 39004 DCl-37          228  1  <A  HREF="c039004.html">c039004.cat</A> <A HREF="doc/d039004.pdf">pdf</A> or <A HREF="doc/d039004.cat">Tex</A> format
+ 39005 NaO            6440  1* <A  HREF="c039005.html">c039005.cat</A> <A HREF="doc/d039005.pdf">pdf</A> or <A HREF="doc/d039005.cat">Tex</A> format
+ 39006 K-atom           11  1* <A  HREF="c039006.html">c039006.cat</A> <A HREF="doc/d039006.pdf">pdf</A> or <A HREF="doc/d039006.cat">Tex</A> format
+ 40001 CH3CCH          813  1  <A  HREF="c040001.html">c040001.cat</A> <A HREF="doc/d040001.pdf">pdf</A> or <A HREF="doc/d040001.cat">Tex</A> format
+ 40002 NaOH             91  1  <A  HREF="c040002.html">c040002.cat</A> <A HREF="doc/d040002.pdf">pdf</A> or <A HREF="doc/d040002.cat">Tex</A> format
+ 40003 SiC             982  1  <A  HREF="c040003.html">c040003.cat</A> <A HREF="doc/d040003.pdf">pdf</A> or <A HREF="doc/d040003.cat">Tex</A> format
+ 40004 SiC-v1          703  1  <A  HREF="c040004.html">c040004.cat</A> <A HREF="doc/d040004.pdf">pdf</A> or <A HREF="doc/d040004.cat">Tex</A> format
+ 40005 KH               40  1  <A  HREF="c040005.html">c040005.cat</A> <A HREF="doc/d040005.pdf">pdf</A> or <A HREF="doc/d040005.cat">Tex</A> format
+ 40006 C2O             354  1* <A  HREF="c040006.html">c040006.cat</A> <A HREF="doc/d040006.pdf">pdf</A> or <A HREF="doc/d040006.cat">Tex</A> format
+ 40007 MgO              88  1* <A  HREF="c040007.html">c040007.cat</A> <A HREF="doc/d040007.pdf">pdf</A> or <A HREF="doc/d040007.cat">Tex</A> format
+ 41001 CH3CN          1728  4* <A  HREF="c041001.html">c041001.cat</A> <A HREF="doc/d041001.pdf">pdf</A> or <A HREF="doc/d041001.cat">Tex</A> format
+ 41002 CH3CC-13-H      822  1  <A  HREF="c041002.html">c041002.cat</A> <A HREF="doc/d041002.pdf">pdf</A> or <A HREF="doc/d041002.cat">Tex</A> format
+ 41003 CH3C-13-CH      813  1  <A  HREF="c041003.html">c041003.cat</A> <A HREF="doc/d041003.pdf">pdf</A> or <A HREF="doc/d041003.cat">Tex</A> format
+ 41004 C-13-H3CCH      821  1  <A  HREF="c041004.html">c041004.cat</A> <A HREF="doc/d041004.pdf">pdf</A> or <A HREF="doc/d041004.cat">Tex</A> format
+ 41005 CH3CCD          822  2  <A  HREF="c041005.html">c041005.cat</A> <A HREF="doc/d041005.pdf">pdf</A> or <A HREF="doc/d041005.cat">Tex</A> format
+ 41006 CH2DCCH         223  2  <A  HREF="c041006.html">c041006.cat</A> <A HREF="doc/d041006.pdf">pdf</A> or <A HREF="doc/d041006.cat">Tex</A> format
+ 41007 SiC-13         2417  1  <A  HREF="c041007.html">c041007.cat</A> <A HREF="doc/d041007.pdf">pdf</A> or <A HREF="doc/d041007.cat">Tex</A> format
+ 41008 CaH             387  1  <A  HREF="c041008.html">c041008.cat</A> <A HREF="doc/d041008.pdf">pdf</A> or <A HREF="doc/d041008.cat">Tex</A> format
+ 41009 CH3NC          1798  1  <A  HREF="c041009.html">c041009.cat</A> <A HREF="doc/d041009.pdf">pdf</A> or <A HREF="doc/d041009.cat">Tex</A> format
+ 41010 CH3CN v8=1     5248  2* <A  HREF="c041010.html">c041010.cat</A> <A HREF="doc/d041010.pdf">pdf</A> or <A HREF="doc/d041010.cat">Tex</A> format
+ 41011 K41-atom         11  1* <A  HREF="c041011.html">c041011.cat</A> <A HREF="doc/d041011.pdf">pdf</A> or <A HREF="doc/d041011.cat">Tex</A> format
+ 42001 CH3CN-15       1351  2* <A  HREF="c042001.html">c042001.cat</A> <A HREF="doc/d042001.pdf">pdf</A> or <A HREF="doc/d042001.cat">Tex</A> format
+ 42002 CH2CO           835  1  <A  HREF="c042002.html">c042002.cat</A> <A HREF="doc/d042002.pdf">pdf</A> or <A HREF="doc/d042002.cat">Tex</A> format
+ 42003 NH2CN         13898  1  <A  HREF="c042003.html">c042003.cat</A> <A HREF="doc/d042003.pdf">pdf</A> or <A HREF="doc/d042003.cat">Tex</A> format
+ 42004 CaD             501  1  <A  HREF="c042004.html">c042004.cat</A> <A HREF="doc/d042004.pdf">pdf</A> or <A HREF="doc/d042004.cat">Tex</A> format
+ 42005 K-41-H           40  1  <A  HREF="c042005.html">c042005.cat</A> <A HREF="doc/d042005.pdf">pdf</A> or <A HREF="doc/d042005.cat">Tex</A> format
+ 42006 C-13-H3CN      1636  2* <A  HREF="c042006.html">c042006.cat</A> <A HREF="doc/d042006.pdf">pdf</A> or <A HREF="doc/d042006.cat">Tex</A> format
+ 42007 CH3C-13-N      1619  2* <A  HREF="c042007.html">c042007.cat</A> <A HREF="doc/d042007.pdf">pdf</A> or <A HREF="doc/d042007.cat">Tex</A> format
+ 42008 CH2DCN         3002  2* <A  HREF="c042008.html">c042008.cat</A> <A HREF="doc/d042008.pdf">pdf</A> or <A HREF="doc/d042008.cat">Tex</A> format
+ 42009 H2CSi           670  1* <A  HREF="c042009.html">c042009.cat</A> <A HREF="doc/d042009.pdf">pdf</A> or <A HREF="doc/d042009.cat">Tex</A> format
+ 42010 SiN             614  1* <A  HREF="c042010.html">c042010.cat</A> <A HREF="doc/d042010.pdf">pdf</A> or <A HREF="doc/d042010.cat">Tex</A> format
+ 43001 CHDCO           886  1  <A  HREF="c043001.html">c043001.cat</A> <A HREF="doc/d043001.pdf">pdf</A> or <A HREF="doc/d043001.cat">Tex</A> format
+ 43002 HNCO           6078  1  <A  HREF="c043002.html">c043002.cat</A> <A HREF="doc/d043002.pdf">pdf</A> or <A HREF="doc/d043002.cat">Tex</A> format
+ 43003 AlO            1023  1  <A  HREF="c043003.html">c043003.cat</A> <A HREF="doc/d043003.pdf">pdf</A> or <A HREF="doc/d043003.cat">Tex</A> format
+ 43004 CP              397  1* <A  HREF="c043004.html">c043004.cat</A> <A HREF="doc/d043004.pdf">pdf</A> or <A HREF="doc/d043004.cat">Tex</A> format
+ 43005 13CH313CN      1256  1* <A  HREF="c043005.html">c043005.cat</A> <A HREF="doc/d043005.pdf">pdf</A> or <A HREF="doc/d043005.cat">Tex</A> format
+ 44001 CS               51  2  <A  HREF="c044001.html">c044001.cat</A> <A HREF="doc/d044001.pdf">pdf</A> or <A HREF="doc/d044001.cat">Tex</A> format
+ 44002 SiO              31  2  <A  HREF="c044002.html">c044002.cat</A> <A HREF="doc/d044002.pdf">pdf</A> or <A HREF="doc/d044002.cat">Tex</A> format
+ 44003 CH3CHO        47034  3* <A  HREF="c044003.html">c044003.cat</A> <A HREF="doc/d044003.pdf">pdf</A> or <A HREF="doc/d044003.cat">Tex</A> format
+ 44004 N2O            1926  3* <A  HREF="c044004.html">c044004.cat</A> <A HREF="doc/d044004.pdf">pdf</A> or <A HREF="doc/d044004.cat">Tex</A> format
+ 44006 DNCO           5504  1  <A  HREF="c044006.html">c044006.cat</A> <A HREF="doc/d044006.pdf">pdf</A> or <A HREF="doc/d044006.cat">Tex</A> format
+ 44007 HN-15-CO        888  1  <A  HREF="c044007.html">c044007.cat</A> <A HREF="doc/d044007.pdf">pdf</A> or <A HREF="doc/d044007.cat">Tex</A> format
+ 44008 HNC-13-O       4332  1  <A  HREF="c044008.html">c044008.cat</A> <A HREF="doc/d044008.pdf">pdf</A> or <A HREF="doc/d044008.cat">Tex</A> format
+ 44009 N2O            1926  3* <A  HREF="c044009.html">c044009.cat</A> <A HREF="doc/d044009.html">pdf</A> or <A HREF="doc/d044009-2.html">Tex</A> format
+ 44010 HCP              34  1  <A  HREF="c044010.html">c044010.cat</A> <A HREF="doc/d044010.pdf">pdf</A> or <A HREF="doc/d044010.cat">Tex</A> format
+ 44011 AlOH            766  1  <A  HREF="c044011.html">c044011.cat</A> <A HREF="doc/d044011.pdf">pdf</A> or <A HREF="doc/d044011.cat">Tex</A> format
+ 44012 N2O            1926  3* <A  HREF="c044012.html">c044012.cat</A> <A HREF="doc/d044012.html">pdf</A> or <A HREF="doc/d044012-2.html">Tex</A> format
+ 44013 C3H8         151544  3* <A  HREF="c044013.html">c044013.cat</A> <A HREF="doc/d044013.pdf">pdf</A> or <A HREF="doc/d044013.cat">Tex</A> format
+ 45001 C-13-S           29  2  <A  HREF="c045001.html">c045001.cat</A> <A HREF="doc/d045001.pdf">pdf</A> or <A HREF="doc/d045001.cat">Tex</A> format
+ 45002 Si-29-O          66  1  <A  HREF="c045002.html">c045002.cat</A> <A HREF="doc/d045002.pdf">pdf</A> or <A HREF="doc/d045002.cat">Tex</A> format
+ 45003 NH2CHO         3476  2  <A  HREF="c045003.html">c045003.cat</A> <A HREF="doc/d045003.pdf">pdf</A> or <A HREF="doc/d045003.cat">Tex</A> format
+ 45005 HCS+             64  1  <A  HREF="c045005.html">c045005.cat</A> <A HREF="doc/d045005.pdf">pdf</A> or <A HREF="doc/d045005.cat">Tex</A> format
+ 45006 HNCO-18        4929  1  <A  HREF="c045006.html">c045006.cat</A> <A HREF="doc/d045006.pdf">pdf</A> or <A HREF="doc/d045006.cat">Tex</A> format
+ 45007 NN-15-O         104  2* <A  HREF="c045007.html">c045007.cat</A> <A HREF="doc/d045007.pdf">pdf</A> or <A HREF="doc/d045007.cat">Tex</A> format
+ 45008 N-15-NO         106  2* <A  HREF="c045008.html">c045008.cat</A> <A HREF="doc/d045008.pdf">pdf</A> or <A HREF="doc/d045008.cat">Tex</A> format
+ 45009 DCP              34  1  <A  HREF="c045009.html">c045009.cat</A> <A HREF="doc/d045009.pdf">pdf</A> or <A HREF="doc/d045009.cat">Tex</A> format
+ 45010 HOCO+          1745  1  <A  HREF="c045010.html">c045010.cat</A> <A HREF="doc/d045010.pdf">pdf</A> or <A HREF="doc/d045010.cat">Tex</A> format
+ 45011 AlOD             70  1  <A  HREF="c045011.html">c045011.cat</A> <A HREF="doc/d045011.pdf">pdf</A> or <A HREF="doc/d045011.cat">Tex</A> format
+ 45012 O-17-CO         285  1  <A  HREF="c045012.html">c045012.cat</A> <A HREF="doc/d045012.pdf">pdf</A> or <A HREF="doc/d045012.cat">Tex</A> format
+ 45013 PN v=0-4       1637  1* <A  HREF="c045013.html">c045013.cat</A> <A HREF="doc/d045013.pdf">pdf</A> or <A HREF="doc/d045013.cat">Tex</A> format
+ 46001 CS-34            34  2  <A  HREF="c046001.html">c046001.cat</A> <A HREF="doc/d046001.pdf">pdf</A> or <A HREF="doc/d046001.cat">Tex</A> format
+ 46002 Si-30-O          67  1  <A  HREF="c046002.html">c046002.cat</A> <A HREF="doc/d046002.pdf">pdf</A> or <A HREF="doc/d046002.cat">Tex</A> format
+ 46003 H2CS            517  1  <A  HREF="c046003.html">c046003.cat</A> <A HREF="doc/d046003.pdf">pdf</A> or <A HREF="doc/d046003.cat">Tex</A> format
+ 46004 C2H5OH        52180  4* <A  HREF="c046004.html">c046004.cat</A> <A HREF="doc/d046004.pdf">pdf</A> or <A HREF="doc/d046004.cat">Tex</A> format
+ 46005 HCOOH          1888  1  <A  HREF="c046005.html">c046005.cat</A> <A HREF="doc/d046005.pdf">pdf</A> or <A HREF="doc/d046005.cat">Tex</A> format
+ 46006 NO2           16444  2  <A  HREF="c046006.html">c046006.cat</A> <A HREF="doc/d046006.pdf">pdf</A> or <A HREF="doc/d046006.cat">Tex</A> format
+ 46007 N2O-18          107  2* <A  HREF="c046007.html">c046007.cat</A> <A HREF="doc/d046007.pdf">pdf</A> or <A HREF="doc/d046007.cat">Tex</A> format
+ 46008 CH3OCH3       21735  1  <A  HREF="c046008.html">c046008.cat</A> <A HREF="doc/d046008.pdf">pdf</A> or <A HREF="doc/d046008.cat">Tex</A> format
+ 46009 AlF            1188  1  <A  HREF="c046009.html">c046009.cat</A> <A HREF="doc/d046009.pdf">pdf</A> or <A HREF="doc/d046009.cat">Tex</A> format
+ 46010 NS             2402  1  <A  HREF="c046010.html">c046010.cat</A> <A HREF="doc/d046010.pdf">pdf</A> or <A HREF="doc/d046010.cat">Tex</A> format
+ 46011 DOCO+           677  1  <A  HREF="c046011.html">c046011.cat</A> <A HREF="doc/d046011.pdf">pdf</A> or <A HREF="doc/d046011.cat">Tex</A> format
+ 46012 HOC-13-O+      1735  1  <A  HREF="c046012.html">c046012.cat</A> <A HREF="doc/d046012.pdf">pdf</A> or <A HREF="doc/d046012.cat">Tex</A> format
+ 46013 O-18-CO          91  1  <A  HREF="c046013.html">c046013.cat</A> <A HREF="doc/d046013.pdf">pdf</A> or <A HREF="doc/d046013.cat">Tex</A> format
+ 46014 CH2OO         19161  1* <A  HREF="c046014.html">c046014.cat</A> <A HREF="doc/d046014.pdf">pdf</A> or <A HREF="doc/d046014.cat">Tex</A> format
+ 47001 H2C-13-S        110  1  <A  HREF="c047001.html">c047001.cat</A> <A HREF="doc/d047001.pdf">pdf</A> or <A HREF="doc/d047001.cat">Tex</A> format
+ 47002 HC-13-OOH     16515  2* <A  HREF="c047002.html">c047002.cat</A> <A HREF="doc/d047002.pdf">pdf</A> or <A HREF="doc/d047002.cat">Tex</A> format
+ 47003 DCOOH         21405  2* <A  HREF="c047003.html">c047003.cat</A> <A HREF="doc/d047003.pdf">pdf</A> or <A HREF="doc/d047003.cat">Tex</A> format
+ 47004 HCOOD         18903  2* <A  HREF="c047004.html">c047004.cat</A> <A HREF="doc/d047004.pdf">pdf</A> or <A HREF="doc/d047004.cat">Tex</A> format
+ 47005 PO+ v=0-4       239  1* <A  HREF="c047005.html">c047005.cat</A> <A HREF="doc/d047005.pdf">pdf</A> or <A HREF="doc/d047005.cat">Tex</A> format
+ 47006 PO              743  1* <A  HREF="c047006.html">c047006.cat</A> <A HREF="doc/d047006.pdf">pdf</A> or <A HREF="doc/d047006.cat">Tex</A> format
+ 47007 HONO          54411  1* <A  HREF="c047007.html">c047007.cat</A> <A HREF="doc/d047007.pdf">pdf</A> or <A HREF="doc/d047007.cat">Tex</A> format
+ 47008 cis-DCOOH     22490  1* <A  HREF="c047008.html">c047008.cat</A> <A HREF="doc/d047008.pdf">pdf</A> or <A HREF="doc/d047008.cat">Tex</A> format
+ 47009 cis-HCOOD     17502  1* <A  HREF="c047009.html">c047009.cat</A> <A HREF="doc/d047009.pdf">pdf</A> or <A HREF="doc/d047009.cat">Tex</A> format
+ 47010 cis-HC-13-OO  15887  1* <A  HREF="c047010.html">c047010.cat</A> <A HREF="doc/d047010.pdf">pdf</A> or <A HREF="doc/d047010.cat">Tex</A> format
+ 48001 SO              330  1  <A  HREF="c048001.html">c048001.cat</A> <A HREF="doc/d048001.pdf">pdf</A> or <A HREF="doc/d048001.cat">Tex</A> format
+ 48002 SO-v1           261  1  <A  HREF="c048002.html">c048002.cat</A> <A HREF="doc/d048002.pdf">pdf</A> or <A HREF="doc/d048002.cat">Tex</A> format
+ 48003 H2CS-34         111  1  <A  HREF="c048003.html">c048003.cat</A> <A HREF="doc/d048003.pdf">pdf</A> or <A HREF="doc/d048003.cat">Tex</A> format
+ 48004 O3             7133  4* <A  HREF="c048004.html">c048004.cat</A> <A HREF="doc/d048004.pdf">pdf</A> or <A HREF="doc/d048004.cat">Tex</A> format
+ 48005 O3-v2          4911  4* <A  HREF="c048005.html">c048005.cat</A> <A HREF="doc/d048005.pdf">pdf</A> or <A HREF="doc/d048005.cat">Tex</A> format
+ 48006 O3-v1,3        9619  4* <A  HREF="c048006.html">c048006.cat</A> <A HREF="doc/d048006.pdf">pdf</A> or <A HREF="doc/d048006.cat">Tex</A> format
+ 48007 O3-2v2         3014  3* <A  HREF="c048007.html">c048007.cat</A> <A HREF="doc/d048007.pdf">pdf</A> or <A HREF="doc/d048007.cat">Tex</A> format
+ 48008 O3-v1,3+v2    10912  1  <A  HREF="c048008.html">c048008.cat</A> <A HREF="doc/d048008.pdf">pdf</A> or <A HREF="doc/d048008.cat">Tex</A> format
+ 48009 NS-34          2364  1  <A  HREF="c048009.html">c048009.cat</A> <A HREF="doc/d048009.pdf">pdf</A> or <A HREF="doc/d048009.cat">Tex</A> format
+ 48010 SO+             194  1* <A  HREF="c048010.html">c048010.cat</A> <A HREF="doc/d048010.pdf">pdf</A> or <A HREF="doc/d048010.cat">Tex</A> format
+ 48011 CH3OOH        46191  1* <A  HREF="c048011.html">c048011.cat</A> <A HREF="doc/d048011.pdf">pdf</A> or <A HREF="doc/d048011.cat">Tex</A> format
+ 48012 HFCO          16494  1* <A  HREF="c048012.html">c048012.cat</A> <A HREF="doc/d048012.pdf">pdf</A> or <A HREF="doc/d048012.cat">Tex</A> format
+ 49001 O3-sym-O-17   26092  2  <A  HREF="c049001.html">c049001.cat</A> <A HREF="doc/d049001.pdf">pdf</A> or <A HREF="doc/d049001.cat">Tex</A> format
+ 49002 O3-asym-O-17  52613  2  <A  HREF="c049002.html">c049002.cat</A> <A HREF="doc/d049002.pdf">pdf</A> or <A HREF="doc/d049002.cat">Tex</A> format
+ 49003 C4H             742  1  <A  HREF="c049003.html">c049003.cat</A> <A HREF="doc/d049003.pdf">pdf</A> or <A HREF="doc/d049003.cat">Tex</A> format
+ 49004 MgCCH           274  1  <A  HREF="c049004.html">c049004.cat</A> <A HREF="doc/d049004.pdf">pdf</A> or <A HREF="doc/d049004.cat">Tex</A> format
+ 49005 HO3           39114  1* <A  HREF="c049005.html">c049005.cat</A> <A HREF="doc/d049005.pdf">pdf</A> or <A HREF="doc/d049005.cat">Tex</A> format
+ 50001 S-34-O          280  1  <A  HREF="c050001.html">c050001.cat</A> <A HREF="doc/d050001.pdf">pdf</A> or <A HREF="doc/d050001.cat">Tex</A> format
+ 50002 SO-18           179  1  <A  HREF="c050002.html">c050002.cat</A> <A HREF="doc/d050002.pdf">pdf</A> or <A HREF="doc/d050002.cat">Tex</A> format
+ 50003 O3-sym-O-18    3184  2  <A  HREF="c050003.html">c050003.cat</A> <A HREF="doc/d050003.pdf">pdf</A> or <A HREF="doc/d050003.cat">Tex</A> format
+ 50004 O3-asym-O-18   7304  2  <A  HREF="c050004.html">c050004.cat</A> <A HREF="doc/d050004.pdf">pdf</A> or <A HREF="doc/d050004.cat">Tex</A> format
+ 50005 O3-s-O18-v2    2387  1  <A  HREF="c050005.html">c050005.cat</A> <A HREF="doc/d050005.pdf">pdf</A> or <A HREF="doc/d050005.cat">Tex</A> format
+ 50006 O3-a-O18-v2    4213  1  <A  HREF="c050006.html">c050006.cat</A> <A HREF="doc/d050006.pdf">pdf</A> or <A HREF="doc/d050006.cat">Tex</A> format
+ 50007 CH3Cl-35       6386  3* <A  HREF="c050007.html">c050007.cat</A> <A HREF="doc/d050007.pdf">pdf</A> or <A HREF="doc/d050007.cat">Tex</A> format
+ 50008 C3N            1351  1  <A  HREF="c050008.html">c050008.cat</A> <A HREF="doc/d050008.pdf">pdf</A> or <A HREF="doc/d050008.cat">Tex</A> format
+ 50009 MgCN            273  1  <A  HREF="c050009.html">c050009.cat</A> <A HREF="doc/d050009.pdf">pdf</A> or <A HREF="doc/d050009.cat">Tex</A> format
+ 50010 MgNC            269  1  <A  HREF="c050010.html">c050010.cat</A> <A HREF="doc/d050010.pdf">pdf</A> or <A HREF="doc/d050010.cat">Tex</A> format
+ 51001 HCCCN           139  3* <A  HREF="c051001.html">c051001.cat</A> <A HREF="doc/d051001.pdf">pdf</A> or <A HREF="doc/d051001.cat">Tex</A> format
+ 51002 ClO            2585  3  <A  HREF="c051002.html">c051002.cat</A> <A HREF="doc/d051002.pdf">pdf</A> or <A HREF="doc/d051002.cat">Tex</A> format
+ 51003 ClO-v1         2112  1  <A  HREF="c051003.html">c051003.cat</A> <A HREF="doc/d051003.pdf">pdf</A> or <A HREF="doc/d051003.cat">Tex</A> format
+ 51004 HCCNC           563  1  <A  HREF="c051004.html">c051004.cat</A> <A HREF="doc/d051004.pdf">pdf</A> or <A HREF="doc/d051004.cat">Tex</A> format
+ 51005 HCCNC-v7        291  1  <A  HREF="c051005.html">c051005.cat</A> <A HREF="doc/d051005.pdf">pdf</A> or <A HREF="doc/d051005.cat">Tex</A> format
+ 51006 HCCNC-v6        291  1  <A  HREF="c051006.html">c051006.cat</A> <A HREF="doc/d051006.pdf">pdf</A> or <A HREF="doc/d051006.cat">Tex</A> format
+ 51007 HCCNC-v5        278  1  <A  HREF="c051007.html">c051007.cat</A> <A HREF="doc/d051007.pdf">pdf</A> or <A HREF="doc/d051007.cat">Tex</A> format
+ 51008 HNCCC           574  1  <A  HREF="c051008.html">c051008.cat</A> <A HREF="doc/d051008.pdf">pdf</A> or <A HREF="doc/d051008.cat">Tex</A> format
+ 52001 HCCC-13-N       152  1  <A  HREF="c052001.html">c052001.cat</A> <A HREF="doc/d052001.pdf">pdf</A> or <A HREF="doc/d052001.cat">Tex</A> format
+ 52002 HCC-13-CN       146  1  <A  HREF="c052002.html">c052002.cat</A> <A HREF="doc/d052002.pdf">pdf</A> or <A HREF="doc/d052002.cat">Tex</A> format
+ 52003 HC-13-CCN       144  1  <A  HREF="c052003.html">c052003.cat</A> <A HREF="doc/d052003.pdf">pdf</A> or <A HREF="doc/d052003.cat">Tex</A> format
+ 52004 HCCCN-15         99  1  <A  HREF="c052004.html">c052004.cat</A> <A HREF="doc/d052004.pdf">pdf</A> or <A HREF="doc/d052004.cat">Tex</A> format
+ 52005 DCCCN           156  1  <A  HREF="c052005.html">c052005.cat</A> <A HREF="doc/d052005.pdf">pdf</A> or <A HREF="doc/d052005.cat">Tex</A> format
+ 52006 HOCl          40352  4* <A  HREF="c052006.html">c052006.cat</A> <A HREF="doc/d052006.pdf">pdf</A> or <A HREF="doc/d052006.cat">Tex</A> format
+ 52007 SiCC            304  2  <A  HREF="c052007.html">c052007.cat</A> <A HREF="doc/d052007.pdf">pdf</A> or <A HREF="doc/d052007.cat">Tex</A> format
+ 52008 CCCO             51  1  <A  HREF="c052008.html">c052008.cat</A> <A HREF="doc/d052008.pdf">pdf</A> or <A HREF="doc/d052008.cat">Tex</A> format
+ 52009 CH3Cl-37       6438  3* <A  HREF="c052009.html">c052009.cat</A> <A HREF="doc/d052009.pdf">pdf</A> or <A HREF="doc/d052009.cat">Tex</A> format
+ 52010 CH2F2         11942  1  <A  HREF="c052010.html">c052010.cat</A> <A HREF="doc/d052010.pdf">pdf</A> or <A HREF="doc/d052010.html">Tex</A> format
+ 52011 CH2F2-v4       7808  1  <A  HREF="c052011.html">c052011.cat</A> <A HREF="doc/d052011.pdf">pdf</A> or <A HREF="doc/d052011.cat">Tex</A> format
+ 52012 DNCCC          3098  1  <A  HREF="c052012.html">c052012.cat</A> <A HREF="doc/d052012.pdf">pdf</A> or <A HREF="doc/d052012.cat">Tex</A> format
+ 52013 CNCN           1105  2* <A  HREF="c052013.html">c052013.cat</A> <A HREF="doc/d052013.pdf">pdf</A> or <A HREF="doc/d052013.cat">Tex</A> format
+ 53001 C2H3CN       298330  4* <A  HREF="c053001.html">c053001.cat</A> <A HREF="doc/d053001.pdf">pdf</A> or <A HREF="doc/d053001.cat">Tex</A> format
+ 53002 Cl-37-O        2624  3  <A  HREF="c053002.html">c053002.cat</A> <A HREF="doc/d053002.pdf">pdf</A> or <A HREF="doc/d053002.cat">Tex</A> format
+ 53003 C-13-CCO         99  1  <A  HREF="c053003.html">c053003.cat</A> <A HREF="doc/d053003.pdf">pdf</A> or <A HREF="doc/d053003.cat">Tex</A> format
+ 53004 CC-13-CO         99  1  <A  HREF="c053004.html">c053004.cat</A> <A HREF="doc/d053004.pdf">pdf</A> or <A HREF="doc/d053004.cat">Tex</A> format
+ 53005 CCC-13-O         99  1  <A  HREF="c053005.html">c053005.cat</A> <A HREF="doc/d053005.pdf">pdf</A> or <A HREF="doc/d053005.cat">Tex</A> format
+ 53006 Cl-37-O-v1     2132  1  <A  HREF="c053006.html">c053006.cat</A> <A HREF="doc/d053006.pdf">pdf</A> or <A HREF="doc/d053006.cat">Tex</A> format
+ 53007 C2H3NC         9362  1  <A  HREF="c053007.html">c053007.cat</A> <A HREF="doc/d053007.pdf">pdf</A> or <A HREF="doc/d053007.cat">Tex</A> format
+ 53008 HNCCN+           99  1* <A  HREF="c053008.html">c053008.cat</A> <A HREF="doc/d053008.pdf">pdf</A> or <A HREF="doc/d053008.cat">Tex</A> format
+ 54001 CH2CHC-13-N   28195  2  <A  HREF="c054001.html">c054001.cat</A> <A HREF="doc/d054001.pdf">pdf</A> or <A HREF="doc/d054001.cat">Tex</A> format
+ 54002 CH2C-13-HCN   28686  2  <A  HREF="c054002.html">c054002.cat</A> <A HREF="doc/d054002.pdf">pdf</A> or <A HREF="doc/d054002.cat">Tex</A> format
+ 54003 C-13-H2CHCN   28746  2  <A  HREF="c054003.html">c054003.cat</A> <A HREF="doc/d054003.pdf">pdf</A> or <A HREF="doc/d054003.cat">Tex</A> format
+ 54004 CH2CDCN        6381  2* <A  HREF="c054004.html">c054004.cat</A> <A HREF="doc/d054004.pdf">pdf</A> or <A HREF="doc/d054004.cat">Tex</A> format
+ 54005 HOCl-37       40627  4* <A  HREF="c054005.html">c054005.cat</A> <A HREF="doc/d054005.pdf">pdf</A> or <A HREF="doc/d054005.cat">Tex</A> format
+ 54006 CCCO-18          99  1  <A  HREF="c054006.html">c054006.cat</A> <A HREF="doc/d054006.pdf">pdf</A> or <A HREF="doc/d054006.cat">Tex</A> format
+ 54007 HCCCHO         8407  1  <A  HREF="c054007.html">c054007.cat</A> <A HREF="doc/d054007.pdf">pdf</A> or <A HREF="doc/d054007.cat">Tex</A> format
+ 54008 CH2CHC-15-N    8541  1* <A  HREF="c054008.html">c054008.cat</A> <A HREF="doc/d054008.pdf">pdf</A> or <A HREF="doc/d054008.html">Tex</A> format
+ 55001 C2H5CN        64344  5* <A  HREF="c055001.html">c055001.cat</A> <A HREF="doc/d055001.pdf">pdf</A> or <A HREF="doc/d055001.cat">Tex</A> format
+ 55002 CaCH3          5775  1* <A  HREF="c055002.html">c055002.cat</A> <A HREF="doc/d055002.pdf">pdf</A> or <A HREF="doc/d055002.cat">Tex</A> format
+ 56001 CH3CH2C-13-N   1183  2  <A  HREF="c056001.html">c056001.cat</A> <A HREF="doc/d056001.pdf">pdf</A> or <A HREF="doc/d056001.cat">Tex</A> format
+ 56002 CH3C-13-H2CN   1252  2  <A  HREF="c056002.html">c056002.cat</A> <A HREF="doc/d056002.pdf">pdf</A> or <A HREF="doc/d056002.cat">Tex</A> format
+ 56003 C-13-H3CH2CN   1183  2  <A  HREF="c056003.html">c056003.cat</A> <A HREF="doc/d056003.pdf">pdf</A> or <A HREF="doc/d056003.cat">Tex</A> format
+ 56004 C2H5CN-15      1621  1  <A  HREF="c056004.html">c056004.cat</A> <A HREF="doc/d056004.pdf">pdf</A> or <A HREF="doc/d056004.cat">Tex</A> format
+ 56005 CH2DCH2CN-s    1166  2  <A  HREF="c056005.html">c056005.cat</A> <A HREF="doc/d056005.pdf">pdf</A> or <A HREF="doc/d056005.cat">Tex</A> format
+ 56006 CH2DCH2CN-a    1286  2  <A  HREF="c056006.html">c056006.cat</A> <A HREF="doc/d056006.pdf">pdf</A> or <A HREF="doc/d056006.cat">Tex</A> format
+ 56007 CCS             563  1  <A  HREF="c056007.html">c056007.cat</A> <A HREF="doc/d056007.pdf">pdf</A> or <A HREF="doc/d056007.cat">Tex</A> format
+ 56008 C2H3CHO       24051  1  <A  HREF="c056008.html">c056008.cat</A> <A HREF="doc/d056008.pdf">pdf</A> or <A HREF="doc/d056008.cat">Tex</A> format
+ 56009 MgS              99  1* <A  HREF="c056009.html">c056009.cat</A> <A HREF="doc/d056009.pdf">pdf</A> or <A HREF="doc/d056009.cat">Tex</A> format
+ 56010 HCCCH2OH     104073  1* <A  HREF="c056010.html">c056010.cat</A> <A HREF="doc/d056010.pdf">pdf</A> or <A HREF="doc/d056010.cat">Tex</A> format
+ 57001 C-13CS         1013  1  <A  HREF="c057001.html">c057001.cat</A> <A HREF="doc/d057001.pdf">pdf</A> or <A HREF="doc/d057001.cat">Tex</A> format
+ 57002 CC-13S         1015  1  <A  HREF="c057002.html">c057002.cat</A> <A HREF="doc/d057002.pdf">pdf</A> or <A HREF="doc/d057002.cat">Tex</A> format
+ 57003 HCCCH2OD      22458  1* <A  HREF="c057003.html">c057003.cat</A> <A HREF="doc/d057003.pdf">pdf</A> or <A HREF="doc/d057003.cat">Tex</A> format
+ 58001 CCS-34          565  1  <A  HREF="c058001.html">c058001.cat</A> <A HREF="doc/d058001.pdf">pdf</A> or <A HREF="doc/d058001.cat">Tex</A> format
+ 58002 NaCl             99  1  <A  HREF="c058002.html">c058002.cat</A> <A HREF="doc/d058002.pdf">pdf</A> or <A HREF="doc/d058002.cat">Tex</A> format
+ 58003 CH3COCH3      61834  1* <A  HREF="c058003.html">c058003.cat</A> <A HREF="doc/d058003.pdf">pdf</A> or <A HREF="doc/d058003.cat">Tex</A> format
+ 60001 OCS              99  2  <A  HREF="c060001.html">c060001.cat</A> <A HREF="doc/d060001.pdf">pdf</A> or <A HREF="doc/d060001.cat">Tex</A> format
+ 60002 SiS              97  1  <A  HREF="c060002.html">c060002.cat</A> <A HREF="doc/d060002.pdf">pdf</A> or <A HREF="doc/d060002.cat">Tex</A> format
+ 60003 CH3OCHO       61521  2* <A  HREF="c060003.html">c060003.cat</A> <A HREF="doc/d060003.pdf">pdf</A> or <A HREF="doc/d060003.cat">Tex</A> format
+ 60005 NaCl-37          99  1  <A  HREF="c060005.html">c060005.cat</A> <A HREF="doc/d060005.pdf">pdf</A> or <A HREF="doc/d060005.cat">Tex</A> format
+ 60006 HCOCH2OH     212527  2* <A  HREF="c060006.html">c060006.cat</A> <A HREF="doc/d060006.pdf">pdf</A> or <A HREF="doc/d060006.cat">Tex</A> format
+ 61001 OC-13-S          99  2  <A  HREF="c061001.html">c061001.cat</A> <A HREF="doc/d061001.pdf">pdf</A> or <A HREF="doc/d061001.cat">Tex</A> format
+ 61002 Si-29-S          98  1  <A  HREF="c061002.html">c061002.cat</A> <A HREF="doc/d061002.pdf">pdf</A> or <A HREF="doc/d061002.cat">Tex</A> format
+ 61003 C5H            2594  1  <A  HREF="c061003.html">c061003.cat</A> <A HREF="doc/d061003.pdf">pdf</A> or <A HREF="doc/d061003.cat">Tex</A> format
+ 61004 NH2CH2CH2OH  282599  1* <A  HREF="c061004.html">c061004.cat</A> <A HREF="doc/d061004.pdf">pdf</A> or <A HREF="doc/d061004.cat">Tex</A> format
+ 62001 OC-34-S          99  2  <A  HREF="c062001.html">c062001.cat</A> <A HREF="doc/d062001.pdf">pdf</A> or <A HREF="doc/d062001.cat">Tex</A> format
+ 62002 O-18-CS          99  2  <A  HREF="c062002.html">c062002.cat</A> <A HREF="doc/d062002.pdf">pdf</A> or <A HREF="doc/d062002.cat">Tex</A> format
+ 62003 Si-30-S          99  1  <A  HREF="c062003.html">c062003.cat</A> <A HREF="doc/d062003.pdf">pdf</A> or <A HREF="doc/d062003.cat">Tex</A> format
+ 62004 SiS-34           99  1  <A  HREF="c062004.html">c062004.cat</A> <A HREF="doc/d062004.pdf">pdf</A> or <A HREF="doc/d062004.cat">Tex</A> format
+ 62005 AlCl          11525  1  <A  HREF="c062005.html">c062005.cat</A> <A HREF="doc/d062005.pdf">pdf</A> or <A HREF="doc/d062005.cat">Tex</A> format
+ 62006 C5D            4436  1  <A  HREF="c062006.html">c062006.cat</A> <A HREF="doc/d062006.pdf">pdf</A> or <A HREF="doc/d062006.cat">Tex</A> format
+ 63001 HNO3         129631  4* <A  HREF="c063001.html">c063001.cat</A> <A HREF="doc/d063001.pdf">pdf</A> or <A HREF="doc/d063001.cat">Tex</A> format
+ 63002 HNO3-v7        8821  2* <A  HREF="c063002.html">c063002.cat</A> <A HREF="doc/d063002.pdf">pdf</A> or <A HREF="doc/d063002.cat">Tex</A> format
+ 63003 HNO3-v9       83672  2* <A  HREF="c063003.html">c063003.cat</A> <A HREF="doc/d063003.pdf">pdf</A> or <A HREF="doc/d063003.cat">Tex</A> format
+ 63004 HNO3-v6       66984  2* <A  HREF="c063004.html">c063004.cat</A> <A HREF="doc/d063004.pdf">pdf</A> or <A HREF="doc/d063004.cat">Tex</A> format
+ 63005 HNO3-v8       58560  2* <A  HREF="c063005.html">c063005.cat</A> <A HREF="doc/d063005.pdf">pdf</A> or <A HREF="doc/d063005.cat">Tex</A> format
+ 63006 HNO3-v5/2v9  105483  2* <A  HREF="c063006.html">c063006.cat</A> <A HREF="doc/d063006.pdf">pdf</A> or <A HREF="doc/d063006.html">Tex</A> format
+ 63007 PS             2340  1* <A  HREF="c063007.html">c063007.cat</A> <A HREF="doc/d063007.pdf">pdf</A> or <A HREF="doc/d063007.cat">Tex</A> format
+ 63008 PO2            7323  1* <A  HREF="c063008.html">c063008.cat</A> <A HREF="doc/d063008.pdf">pdf</A> or <A HREF="doc/d063008.cat">Tex</A> format
+ 63009 HOONO        168036  2* <A  HREF="c063009.html">c063009.cat</A> <A HREF="doc/d063009.pdf">pdf</A> or <A HREF="doc/d063009.cat">Tex</A> format
+ 64001 S2              174  2  <A  HREF="c064001.html">c064001.cat</A> <A HREF="doc/d064001.pdf">pdf</A> or <A HREF="doc/d064001.cat">Tex</A> format
+ 64002 SO2           13573  4* <A  HREF="c064002.html">c064002.cat</A> <A HREF="doc/d064002.pdf">pdf</A> or <A HREF="doc/d064002.cat">Tex</A> format
+ 64003 AlCl-37       11326  1  <A  HREF="c064003.html">c064003.cat</A> <A HREF="doc/d064003.pdf">pdf</A> or <A HREF="doc/d064003.cat">Tex</A> format
+ 64004 C4O             535  1* <A  HREF="c064004.html">c064004.cat</A> <A HREF="doc/d064004.pdf">pdf</A> or <A HREF="doc/d064004.cat">Tex</A> format
+ 64005 SO2-v2         9225  1* <A  HREF="c064005.html">c064005.cat</A> <A HREF="doc/d064005.pdf">pdf</A> or <A HREF="doc/d064005.cat">Tex</A> format
+ 64006 H35ClCO      113626  1* <A  HREF="c064006.html">c064006.cat</A> <A HREF="doc/d064006.pdf">pdf</A> or <A HREF="doc/d064006.cat">Tex</A> format
+ 64007 H15NO3        36935  1* <A  HREF="c064007.html">c064007.cat</A> <A HREF="doc/d064007.pdf">pdf</A> or <A HREF="doc/d064007.cat">Tex</A> format
+ 64008 DNO3          56528  1* <A  HREF="c064008.html">c064008.cat</A> <A HREF="doc/d064008.pdf">pdf</A> or <A HREF="doc/d064008.html">Tex</A> format
+ 65001 S-33-O2       19048  1* <A  HREF="c065001.html">c065001.cat</A> <A HREF="doc/d065001.pdf">pdf</A> or <A HREF="doc/d065001.cat">Tex</A> format
+ 65002 H18ONO2       40392  1* <A  HREF="c065002.html">c065002.cat</A> <A HREF="doc/d065002.pdf">pdf</A> or <A HREF="doc/d065002.html">Tex</A> format
+ 65003 HON18OO       44692  1* <A  HREF="c065003.html">c065003.cat</A> <A HREF="doc/d065003.pdf">pdf</A> or <A HREF="doc/d065003.html">Tex</A> format
+ 65004 HONO18O       17737  1* <A  HREF="c065004.html">c065004.cat</A> <A HREF="doc/d065004.pdf">pdf</A> or <A HREF="doc/d065004.html">Tex</A> format
+ 66001 COF2          23090  1  <A  HREF="c066001.html">c066001.cat</A> <A HREF="doc/d066001.pdf">pdf</A> or <A HREF="doc/d066001.cat">Tex</A> format
+ 66002 S-34-O2       11894  2* <A  HREF="c066002.html">c066002.cat</A> <A HREF="doc/d066002.pdf">pdf</A> or <A HREF="doc/d066002.cat">Tex</A> format
+ 66003 CaNC            259  1  <A  HREF="c066003.html">c066003.cat</A> <A HREF="doc/d066003.pdf">pdf</A> or <A HREF="doc/d066003.cat">Tex</A> format
+ 66004 SOO-18         9758  1* <A  HREF="c066004.html">c066004.cat</A> <A HREF="doc/d066004.pdf">pdf</A> or <A HREF="doc/d066004.cat">Tex</A> format
+ 66005 H37ClCO      113891  1* <A  HREF="c066005.html">c066005.cat</A> <A HREF="doc/d066005.pdf">pdf</A> or <A HREF="doc/d066005.cat">Tex</A> format
+ 67001 OCl-35-O      57232  2* <A  HREF="c067001.html">c067001.cat</A> <A HREF="doc/d067001.pdf">pdf</A> or <A HREF="doc/d067001.cat">Tex</A> format
+ 68001 CCCS             99  1  <A  HREF="c068001.html">c068001.cat</A> <A HREF="doc/d068001.pdf">pdf</A> or <A HREF="doc/d068001.cat">Tex</A> format
+ 69001 OCl-37-O      49388  2* <A  HREF="c069001.html">c069001.cat</A> <A HREF="doc/d069001.pdf">pdf</A> or <A HREF="doc/d069001.cat">Tex</A> format
+ 69002 C3H7CN       131349  1  <A  HREF="c069002.html">c069002.cat</A> <A HREF="doc/d069002.pdf">pdf</A> or <A HREF="doc/d069002.cat">Tex</A> format
+ 70001 CCCS-34          99  1  <A  HREF="c070001.html">c070001.cat</A> <A HREF="doc/d070001.pdf">pdf</A> or <A HREF="doc/d070001.cat">Tex</A> format
+ 71001 MnO           12510  1* <A  HREF="c071001.html">c071001.cat</A> <A HREF="doc/d071001.pdf">pdf</A> or <A HREF="doc/d071001.cat">Tex</A> format
+ 71002 NF3            4033  1* <A  HREF="c071002.html">c071002.cat</A> <A HREF="doc/d071002.pdf">pdf</A> or <A HREF="doc/d071002.cat">Tex</A> format
+ 72001 CaS             382  1* <A  HREF="c072001.html">c072001.cat</A> <A HREF="doc/d072001.pdf">pdf</A> or <A HREF="doc/d072001.cat">Tex</A> format
+ 73001 C6H            3031  1  <A  HREF="c073001.html">c073001.cat</A> <A HREF="doc/d073001.pdf">pdf</A> or <A HREF="doc/d073001.cat">Tex</A> format
+ 74001 KCl              99  1  <A  HREF="c074001.html">c074001.cat</A> <A HREF="doc/d074001.pdf">pdf</A> or <A HREF="doc/d074001.cat">Tex</A> format
+ 74002 C2H5OOCH      60671  1  <A  HREF="c074002.html">c074002.cat</A> <A HREF="doc/d074002.pdf">pdf</A> or <A HREF="doc/d074002.cat">Tex</A> format
+ 74003 C3H6O2       108659  2* <A  HREF="c074003.html">c074003.cat</A> <A HREF="doc/d074003.pdf">pdf</A> or <A HREF="doc/d074003.cat">Tex</A> format
+ 75001 HCCCCCN          99  1  <A  HREF="c075001.html">c075001.cat</A> <A HREF="doc/d075001.pdf">pdf</A> or <A HREF="doc/d075001.cat">Tex</A> format
+ 75002 H2NCH2COOH I  68326  1  <A  HREF="c075002.html">c075002.cat</A> <A HREF="doc/d075002.pdf">pdf</A> or <A HREF="doc/d075002.cat">Tex</A> format
+ 75003 H2NCH2COOH II 44300  1  <A  HREF="c075003.html">c075003.cat</A> <A HREF="doc/d075003.pdf">pdf</A> or <A HREF="doc/d075003.cat">Tex</A> format
+ 75004 H2NCO2CH3    140822  1* <A  HREF="c075004.html">c075004.cat</A> <A HREF="doc/d075004.pdf">pdf</A> or <A HREF="doc/d075004.cat">Tex</A> format
+ 76001 HCCCCC-13-N      99  1  <A  HREF="c076001.html">c076001.cat</A> <A HREF="doc/d076001.pdf">pdf</A> or <A HREF="doc/d076001.cat">Tex</A> format
+ 76002 HCCCC-13-CN      99  1  <A  HREF="c076002.html">c076002.cat</A> <A HREF="doc/d076002.pdf">pdf</A> or <A HREF="doc/d076002.cat">Tex</A> format
+ 76003 HCCC-13-CCN      99  1  <A  HREF="c076003.html">c076003.cat</A> <A HREF="doc/d076003.pdf">pdf</A> or <A HREF="doc/d076003.cat">Tex</A> format
+ 76004 HCC-13-CCCN      99  1  <A  HREF="c076004.html">c076004.cat</A> <A HREF="doc/d076004.pdf">pdf</A> or <A HREF="doc/d076004.cat">Tex</A> format
+ 76005 HC-13-CCCCN      99  1  <A  HREF="c076005.html">c076005.cat</A> <A HREF="doc/d076005.pdf">pdf</A> or <A HREF="doc/d076005.cat">Tex</A> format
+ 76006 HCCCCCN-15       99  1  <A  HREF="c076006.html">c076006.cat</A> <A HREF="doc/d076006.pdf">pdf</A> or <A HREF="doc/d076006.cat">Tex</A> format
+ 76007 DCCCCCN          99  1  <A  HREF="c076007.html">c076007.cat</A> <A HREF="doc/d076007.pdf">pdf</A> or <A HREF="doc/d076007.cat">Tex</A> format
+ 76008 KCl-37           99  1  <A  HREF="c076008.html">c076008.cat</A> <A HREF="doc/d076008.pdf">pdf</A> or <A HREF="doc/d076008.cat">Tex</A> format
+ 76009 C4Si            229  1  <A  HREF="c076009.html">c076009.cat</A> <A HREF="doc/d076009.pdf">pdf</A> or <A HREF="doc/d076009.cat">Tex</A> format
+ 76010 C5O              99  1* <A  HREF="c076010.html">c076010.cat</A> <A HREF="doc/d076010.pdf">pdf</A> or <A HREF="doc/d076010.cat">Tex</A> format
+ 76011 C3H8O2 I      21811  1* <A  HREF="c076011.html">c076011.cat</A> <A HREF="doc/d076011.pdf">pdf</A> or <A HREF="doc/d076011.cat">Tex</A> format
+ 76012 C3H8O2 II     21295  1* <A  HREF="c076012.html">c076012.cat</A> <A HREF="doc/d076012.pdf">pdf</A> or <A HREF="doc/d076012.cat">Tex</A> format
+ 77001 C3H8O2 I 13C3 11244  1* <A  HREF="c077001.html">c077001.cat</A> <A HREF="doc/d077001.pdf">pdf</A> or <A HREF="doc/d077001.cat">Tex</A> format
+ 77002 C3H8O2 I 13C4 21991  1* <A  HREF="c077002.html">c077002.cat</A> <A HREF="doc/d077002.pdf">pdf</A> or <A HREF="doc/d077002.cat">Tex</A> format
+ 77003 C3H8O2 I 13C5 11250  1* <A  HREF="c077003.html">c077003.cat</A> <A HREF="doc/d077003.pdf">pdf</A> or <A HREF="doc/d077003.cat">Tex</A> format
+ 78001 AsH3           4956  1* <A  HREF="c078001.html">c078001.cat</A> <A HREF="doc/d078001.pdf">pdf</A> or <A HREF="doc/d078001.cat">Tex</A> format
+ 79001 HOONO2        50775  1  <A  HREF="c079001.html">c079001.cat</A> <A HREF="doc/d079001.pdf">pdf</A> or <A HREF="doc/d079001.cat">Tex</A> format
+ 80001 HBr-79          143  2  <A  HREF="c080001.html">c080001.cat</A> <A HREF="doc/d080001.pdf">pdf</A> or <A HREF="doc/d080001.cat">Tex</A> format
+ 80002 ZnO             259  1* <A  HREF="c080002.html">c080002.cat</A> <A HREF="doc/d080002.pdf">pdf</A> or <A HREF="doc/d080002.cat">Tex</A> format
+ 81001 Cl-35-NO2      3520  1* <A  HREF="c081001.html">c081001.cat</A> <A HREF="doc/d081001.pdf">pdf</A> or <A HREF="doc/d081001.cat">Tex</A> format
+ 82001 HBr-81          143  2  <A  HREF="c082001.html">c082001.cat</A> <A HREF="doc/d082001.pdf">pdf</A> or <A HREF="doc/d082001.cat">Tex</A> format
+ 84001 CH2Cl2       752701  1* <A  HREF="c084001.html">c084001.cat</A> <A HREF="doc/d084001.pdf">pdf</A> or <A HREF="doc/d084001.cat">Tex</A> format
+ 88001 C6O             567  1* <A  HREF="c088001.html">c088001.cat</A> <A HREF="doc/d088001.pdf">pdf</A> or <A HREF="doc/d088001.cat">Tex</A> format
+ 89001 Sr-88-H         391  1  <A  HREF="c089001.html">c089001.cat</A> <A HREF="doc/d089001.pdf">pdf</A> or <A HREF="doc/d089001.cat">Tex</A> format
+ 90001 Sr-88-D         922  1  <A  HREF="c090001.html">c090001.cat</A> <A HREF="doc/d090001.pdf">pdf</A> or <A HREF="doc/d090001.cat">Tex</A> format
+ 90002 C3O3H6 - DHA  79158  1* <A  HREF="c090002.html">c090002.cat</A> <A HREF="doc/d090002.pdf">pdf</A> or <A HREF="doc/d090002.cat">Tex</A> format
+ 92001 C5S              99  1  <A  HREF="c092001.html">c092001.cat</A> <A HREF="doc/d092001.pdf">pdf</A> or <A HREF="doc/d092001.cat">Tex</A> format
+ 94001 C5-34-S          99  1  <A  HREF="c094001.html">c094001.cat</A> <A HREF="doc/d094001.pdf">pdf</A> or <A HREF="doc/d094001.cat">Tex</A> format
+ 94002 CH3-79-Br     14309  1* <A  HREF="c094002.html">c094002.cat</A> <A HREF="doc/d094002.pdf">pdf</A> or <A HREF="doc/d094002.cat">Tex</A> format
+ 95001 Br-79-O        1892  2* <A  HREF="c095001.html">c095001.cat</A> <A HREF="doc/d095001.pdf">pdf</A> or <A HREF="doc/d095001.cat">Tex</A> format
+ 95002 Br-79-O v=1    1314  1* <A  HREF="c095002.html">c095002.cat</A> <A HREF="doc/d095002.pdf">pdf</A> or <A HREF="doc/d095002.cat">Tex</A> format
+ 96001 HOBr-79        9898  1  <A  HREF="c096001.html">c096001.cat</A> <A HREF="doc/d096001.pdf">pdf</A> or <A HREF="doc/d096001.cat">Tex</A> format
+ 96002 S3            12039  1* <A  HREF="c096002.html">c096002.cat</A> <A HREF="doc/d096002.pdf">pdf</A> or <A HREF="doc/d096002.cat">Tex</A> format
+ 96003 CH3-81-Br     14333  1* <A  HREF="c096003.html">c096003.cat</A> <A HREF="doc/d096003.pdf">pdf</A> or <A HREF="doc/d096003.cat">Tex</A> format
+ 97001 Br-81-O        1892  2* <A  HREF="c097001.html">c097001.cat</A> <A HREF="doc/d097001.pdf">pdf</A> or <A HREF="doc/d097001.cat">Tex</A> format
+ 97002 Cl-35-ONO2    78323  2* <A  HREF="c097002.html">c097002.cat</A> <A HREF="doc/d097002.pdf">pdf</A> or <A HREF="doc/d097002.cat">Tex</A> format
+ 97003 Br-81-O v=1    1313  1* <A  HREF="c097003.html">c097003.cat</A> <A HREF="doc/d097003.pdf">pdf</A> or <A HREF="doc/d097003.cat">Tex</A> format
+ 98001 H2SO4         42913  4* <A  HREF="c098001.html">c098001.cat</A> <A HREF="doc/d098001.pdf">pdf</A> or <A HREF="doc/d098001.html">Tex</A> format
+ 98002 HOBr-81        9920  1  <A  HREF="c098002.html">c098002.cat</A> <A HREF="doc/d098002.pdf">pdf</A> or <A HREF="doc/d098002.cat">Tex</A> format
+ 99001 Cl-37-ONO2    49505  2* <A  HREF="c099001.html">c099001.cat</A> <A HREF="doc/d099001.pdf">pdf</A> or <A HREF="doc/d099001.cat">Tex</A> format
+ 99002 HC7N            518  1  <A  HREF="c099002.html">c099002.cat</A> <A HREF="doc/d099002.pdf">pdf</A> or <A HREF="doc/d099002.cat">Tex</A> format
+100001 C7O              99  1* <A  HREF="c100001.html">c100001.cat</A> <A HREF="doc/d100001.pdf">pdf</A> or <A HREF="doc/d100001.cat">Tex</A> format
+102001 ClOOCl        17266  1  <A  HREF="c102001.html">c102001.cat</A> <A HREF="doc/d102001.pdf">pdf</A> or <A HREF="doc/d102001.cat">Tex</A> format
+102002 ClClOO        15078  1* <A  HREF="c102002.html">c102002.cat</A> <A HREF="doc/d102002.pdf">pdf</A> or <A HREF="doc/d102002.cat">Tex</A> format
+104001 Cl-37-OOCl    17482  1  <A  HREF="c104001.html">c104001.cat</A> <A HREF="doc/d104001.pdf">pdf</A> or <A HREF="doc/d104001.cat">Tex</A> format
+111001 OBr-79-O      52631  1* <A  HREF="c111001.html">c111001.cat</A> <A HREF="doc/d111001.pdf">pdf</A> or <A HREF="doc/d111001.cat">Tex</A> format
+112001 Se-80-O2       7484  1  <A  HREF="c112001.html">c112001.cat</A> <A HREF="doc/d112001.pdf">pdf</A> or <A HREF="doc/d112001.cat">Tex</A> format
+112002 C8O             644  1* <A  HREF="c112002.html">c112002.cat</A> <A HREF="doc/d112002.pdf">pdf</A> or <A HREF="doc/d112002.cat">Tex</A> format
+113001 OBr-81-O      52840  1* <A  HREF="c113001.html">c113001.cat</A> <A HREF="doc/d113001.pdf">pdf</A> or <A HREF="doc/d113001.cat">Tex</A> format
+123001 HC9N             99  1  <A  HREF="c123001.html">c123001.cat</A> <A HREF="doc/d123001.pdf">pdf</A> or <A HREF="doc/d123001.cat">Tex</A> format
+124001 C9O             100  1* <A  HREF="c124001.html">c124001.cat</A> <A HREF="doc/d124001.pdf">pdf</A> or <A HREF="doc/d124001.cat">Tex</A> format
+128001 S4            26640  1* <A  HREF="c128001.html">c128001.cat</A> <A HREF="doc/d128001.pdf">pdf</A> or <A HREF="doc/d128001.cat">Tex</A> format
+143001 IO             8833  1* <A  HREF="c143001.html">c143001.cat</A> <A HREF="doc/d143001.pdf">pdf</A> or <A HREF="doc/d143001.cat">Tex</A> format
+147001 HC11N            99  2* <A  HREF="c147001.html">c147001.cat</A> <A HREF="doc/d147001.pdf">pdf</A> or <A HREF="doc/d147001.cat">Tex</A> format
+</PRE></div>
+
+
+</td>
+<td width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+</tr>
+<tr>
+<td width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+<td width="730"><img src="art/spacer.gif" alt="spacer" width="730" height="10"></td>
+<td width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+</tr>
+
+<tr>
+<td width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+<td width="730"><table cellpadding="0" cellspacing="0" border="0"><tr>
+	<td><a href="http://www.jpl.nasa.gov/copyrights.cfm"><img alt="Privacy / Copyrights" src="art/footnav_01.gif" border="0"></a></td>
+	<td><a href="http://www.jpl.nasa.gov/faq.cfm"><img src="art/footnav_02.gif" alt="FAQ" border="0"></a></td>
+	<td><a href="http://spec.jpl.nasa.gov/feedback.html"><img src="art/footnav_03.gif" alt="Feedback" border="0"></a></td>
+	<td><a href="http://www.jpl.nasa.gov/sitemap.cfm"><img src="art/footnav_04.gif" alt="Sitemap" border="0"></a></td>
+	</tr></table>
+</td>
+<td width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+</tr>
+
+<tr>
+<td width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+<td width="730"><img src="art/spacer.gif" alt="spacer" width="730" height="10"></td>
+<td width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+</tr>
+
+<tr> 
+<td width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+<td bgcolor="#cccccc"><table cellpadding="4" cellspacing="0" width="730" border="0"><tr>
+          <td valign=top width=160><a target=_blank 
+            href="http://www.firstgov.gov/"><img height=39 alt="FIRST GOV" 
+            src="art/footer_image1.gif" 
+            width=136 border=0></a></td>
+          <td width=198>&nbsp;</td>
+          <td width=61><a target=_blank 
+            href="http://www.nasa.gov/home/index.html"><img height=40 
+            alt="NASA Home Page" 
+            src="art/footer_image2.gif" 
+            width=61 border=0></a></td>
+          
+        <td width=280><font face="Arial, Helvetica, sans-serif" size="2">Site 
+          Manager: Brian Drouin<br>
+          Webmasters: <a class=footerLnk 
+            href="mailto:Brian.J.Drouin@jpl.nasa.gov"> Brian Drouin</a>, <a class=footerLnk 
+            href="mailto:Brian.J.Drouin@jpl.nasa.gov">Brian Drouin</a></font></td>
+        </tr></table>
+	</td>
+
+<td width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+</tr>
+<tr>
+<td width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+<td width="730"><img src="art/spacer.gif" alt="spacer" width="730" height="10"></td>
+<td width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+</tr>
+<tr bgcolor="#000000">
+<td bgcolor="#000000" width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+<td bgcolor="#000000" width="730"><img src="art/spacer.gif" alt="spacer" width="730" height="10"></td>
+<td bgcolor="#000000" width="10"><img src="art/spacer.gif" alt="spacer" width="10" height="1"></td>
+</tr>
+</table>
+
+
+
+<map name="Map" alt="">
+  <area shape="rect" coords="91,6,278,30" alt="" href="http://www.jpl.nasa.gov/">
+  <area shape="circle" coords="56,27,24" alt="" href="http://www.nasa.gov/">
+  <area shape="rect" coords="91,31,272,49" alt="" href="http://www.caltech.edu/">
+</map>
+
+
+
+</td></tr></table>
+
+</body>
+
+<!-- Mirrored from spec.jpl.nasa.gov/ftp/pub/catalog/catdir.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Mar 2026 07:05:00 GMT -->
+</html>

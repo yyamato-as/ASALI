@@ -12,6 +12,8 @@ from specdata import SpectroscopicData, PartitionFunction
 import re
 import urllib.parse
 from astropy.table import Table
+from astropy.table import vstack
+from astropy.io import ascii
 
 ASA_query = Alma()
 ASA_query.archive_url = "https://almascience.nao.ac.jp"
@@ -271,16 +273,41 @@ ALMA_Band_frequency_range = {
     "Band 10": (787, 950)
 }
 
-def fetch_JPL_species():
-    df_mol = pd.read_csv(
-        JPL_PF_filename,
-        sep='\s+', 
-        skip_blank_lines=True,
-        usecols=[0,1],
-        names=["tag", "name"]
+def get_JPL_table(filename):
+    with open(filename, "r") as f:
+        data = f.read()
+
+    lines = data.split("\n")
+    def tryfloat(x):
+            try:
+                return float(x)
+            except ValueError:
+                return np.nan
+
+    tbl = ascii.read(
+        filename,
+        format="fixed_width",
+        names=['tag', 'name', '#lines', 'lg(Q(300))', 'lg(Q(225))',
+                            'lg(Q(150))', 'lg(Q(75))', 'lg(Q(37.5))', 'lg(Q(18.75))', 'lg(Q(9.375))', "version"],
+        col_starts=(0, 7, 19, 26, 33, 40, 47, 54, 61, 68, 75),
     )
+    # tbl = Table(tbl_rows)
+    return tbl
+
+def fetch_JPL_species():
+    tbl = get_JPL_table(JPL_PF_filename)
+    df_mol = tbl["tag", "name"].to_pandas()
     df_mol["catalog"] = "JPL"
     return df_mol
+
+def read_JPL_partition_function(filename, tag):
+    tbl = get_JPL_table(filename)
+
+    temps = np.array([300, 225, 150, 75, 37.5, 18.75, 9.375])
+    Qvals = tbl[tbl["tag"] == tag]
+    Qvals = np.array(list(Qvals[0])[3:-1])
+    # print(tbl)
+    return temps[~np.isnan(Qvals)], 10 ** Qvals[~np.isnan(Qvals)]
 
 def get_CDMS_table(filename):
     with open(filename, "r") as f:
@@ -295,7 +322,7 @@ def get_CDMS_table(filename):
 
     # the 'fixed width' table reader fails because there are rows that violate fixed width
     tbl_rows = []
-    for row in lines[15:-5]:
+    for row in lines[4:-2]:
         split = row.split()
         tag = int(split[0])
         molecule_and_lines = row[7:41]
@@ -337,48 +364,6 @@ def read_CDMS_partition_function(filename, tag):
     # print(tbl)
     return temps[~np.isnan(Qvals)], 10 ** Qvals[~np.isnan(Qvals)]
 
-def read_JPL_partition_function(filename, tag):
-    """
-    Parameters
-    ----------
-    filename : str
-    mol_id : int
-
-    Returns
-    -------
-    temps : np.ndarray
-        温度配列（昇順）
-    Qvals : np.ndarray
-        log10(Q)
-    """
-
-    # 温度（昇順）
-    temps = np.array([9.375, 18.75, 37.50, 75.00, 150.0, 225.0, 300.0])
-
-    with open(filename, "r") as f:
-        for line in f:
-            line = line.strip()
-            if not line:
-                continue
-
-            parts = line.split()
-
-            try:
-                current_id = int(parts[0])
-            except ValueError:
-                continue
-
-            if current_id == tag:
-                # 4列目から「最後の1列手前まで」を使う
-                Qvals = np.array([float(v) for v in parts[3:-1]])
-
-                # 元は高温→低温なので反転
-                Qvals = Qvals[::-1]
-
-                return temps, 10 ** Qvals
-
-    raise ValueError(f"ID {tag} not found")
-
 def parse_frequency_support(frequency_support_str):
     spw_list = str(frequency_support_str).split("U")
     freq_range_list = []
@@ -402,7 +387,7 @@ def format_ALMA_query(query_result):
     coord = SkyCoord(ra=query_result["s_ra"], dec=query_result["s_dec"], unit=u.deg)
     df["R.A."] = coord.ra.to_string(sep="hms", precision=3)
     df["Dec."] = coord.dec.to_string(sep="dms", precision=2)
-    df["Band"] = query_result["band_list"]
+    df["Band"] = [int(band) for band in query_result["band_list"]]
 
     # frequency coverage
     freq_support = []
@@ -445,6 +430,32 @@ def search_molecules(searchterm: str):
     matches = df[df['name'].str.contains(searchterm, case=False, na=False)]
     return [(f"{row['name']} ({row['catalog']} {row['tag']})", int(row['tag'])) for _, row in matches.iterrows()]
 
+# @st.cache_data(ttl=3600)  # 1時間キャッシュ
+def search_alma_sources(prefix):
+    if len(prefix) < 3:  # 少ない文字数では検索しない
+        return []
+    
+    # TAPクエリで前方一致検索 (LIKE 'G028%')
+    # 重複を除いて上位10件程度を取得
+    # query = f"""
+    # SELECT DISTINCT target_name 
+    # FROM alma.asax_observation 
+    # WHERE target_name LIKE '%{prefix}%' 
+    # AND rownum <= 10
+    # """
+
+    query = f"""
+    SELECT DISTINCT target_name 
+    FROM alma.asax_observation 
+    WHERE target_name LIKE '%{prefix}%' 
+    """
+
+    try:
+        results = Alma.query_tap(query)
+        return results['target_name'].tolist()
+    except:
+        return []
+
 if "alma_query_results" not in st.session_state:
     st.session_state.alma_query_results = None
 
@@ -454,15 +465,33 @@ st.sidebar.title("Search Settings")
 
 # 1. 天体設定
 source_name = st.sidebar.text_input("Source Name", "")
+# alma_source_name = st.sidebar.text_input("ALMA source name", "")
+# target_list = search_alma_sources(alma_source_name)
+# st.write(target_list)
 search_radius_str = st.sidebar.text_input("Search Radius (arcmin)", value=1.0)
 # systemic_velocity_str = st.sidebar.text_input("Source Velocity (km/s)", placeholder="e.g., 2.8")
+
+# def search_alma_source_names(searchterm: str):
+#     return search_alma_sources(searchterm) if searchterm else []
+
+# # サイドバーに設置
+# with st.sidebar:
+#     selected_source = st_searchbox(
+#         search_alma_source_names,
+#         key="alma_source_search",
+#         label="ALMA source name",
+#         # placeholder="e.g. V883 Ori or G028",
+#         placeholder=""
+#     )
+
+#     if selected_source:
+#         st.sidebar.success(f"Selected: **{selected_source}**")
+
 colmin, colmax = st.sidebar.columns(2)
 angres_min_str = colmin.text_input("Min. Ang. Res. (arcsec)", value=0.0)
 angres_max_str = colmax.text_input("Max. Ang. Res. (arcsec)", value=1.0)
 velres_min_str = colmin.text_input("Min. Vel. Res. (km/s)", value=0.0)
 velres_max_str = colmax.text_input("Max. Vel. Res. (km/s)", value=10.0)
-
-
 
 # 1. バンドリストの定義
 bands = [f"{band} ({nurange[0]}–{nurange[1]} GHz)" for band, nurange in ALMA_Band_frequency_range.items()]
@@ -480,12 +509,26 @@ if st.sidebar.button("Search Archive", type="primary"):
     # AstroqueryでALMA Archiveを検索
     with st.sidebar.spinner("Searching ALMA Science Archive..."):
         # ここで Alma.query_object 等を叩く
+        # if source_name != "":
         query_results_full = ASA_query.query_region(
             source_name,
             radius=float(search_radius_str) * u.arcmin,
             public=None,
             band_list=selected_bands
         )
+        # else:
+        #     query_results_full = []
+        #     for source in target_list:
+        #         _query_results = ASA_query.query(
+        #             {
+        #                 "target_name": alma_source_name,
+        #                 "band_list": selected_bands
+        #             }
+        #         )
+        #         query_results_full.append(_query_results)
+            
+        #     query_results_full = vstack(query_results_full)
+        
         # limit angular/velocity resolution
         condition = (query_results_full["spatial_resolution"] >= float(angres_min_str)) & (query_results_full["spatial_resolution"] <= float(angres_max_str))
         condition = condition & (query_results_full["velocity_resolution"] * 1e-3 >= float(velres_min_str)) & (query_results_full["velocity_resolution"] * 1e-3 <= float(velres_max_str))

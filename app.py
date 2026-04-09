@@ -740,6 +740,7 @@ if st.button("Search for Selected Species"):
                                         "Rest Freq. (GHz)": trow["Frequency"],
                                         "$E_\mathrm{u}$ (K)": trow["E_up"],
                                         "$\log_{10}A_\mathrm{ul}$": np.log10(trow["A_ul"]),
+                                        "$g_\mathrm{u}$": trow["g_up"],
                                         "Link": ASA_query.archive_url + f"/aq/?{urllib.parse.urlencode({'mous': row['member_ous_uid'], 'sourceName': row['target_name']})}"
                                     }
                                 )

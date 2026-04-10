@@ -437,8 +437,8 @@ def search_molecules(searchterm: str):
     matches = df[df['name'].str.contains(searchterm, case=False, na=False)]
     return [(f"{row['name']} ({row['catalog']} {row['tag']})", int(row['tag'])) for _, row in matches.iterrows()]
 
-if "target_list" not in st.session_state:
-    st.session_state.target_list = fetch_all_target_names()
+# if "target_list" not in st.session_state:
+#     st.session_state.target_list = fetch_all_target_names()
 
 if "alma_query_results" not in st.session_state:
     st.session_state.alma_query_results = None
@@ -502,15 +502,14 @@ if st.sidebar.button("Search Archive", type="primary"):
     with st.sidebar.spinner("Searching ALMA Science Archive..."):
         # ここで Alma.query_object 等を叩く
         if alma_source_name != "":
-            target_list = [name for name in st.session_state.target_list if alma_source_name in name]
             # query_results_full = []
             # for source in targets:
-            query_results_full = ASA_query.query(
-                {
-                    "target_name": target_list,
-                    "band_list": selected_bands
-                }
-            )
+            query_str = f"select * from ivoa.obscore where target_name like '%{alma_source_name}%'"
+            query_str += "AND band_list in (" + ", ".join([f"'{str(band)}'" for band in selected_bands]) + ")"
+            query_results_full = ASA_query.query_tap(
+                query_str
+            ).to_table()
+            # st.write(query_results_full)
         else:
             source = SkyCoord(coordinate_RADec, frame="icrs") if coordinate_RADec != "" else source_name
             query_results_full = ASA_query.query_region(

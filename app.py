@@ -418,6 +418,13 @@ def format_ALMA_query(query_result):
     return df
 
 # --- データ準備・キャッシュ ---
+def fetch_all_target_names():
+    query = "SELECT DISTINCT target_name FROM ivoa.ObsCore"
+    # Alma ではなく、ご自身で定義されている ASA_query (Almaクラスのインスタンス) を使用してください
+    result = Alma.query_tap(query)
+    # リスト形式に変換して返す
+    return sorted(result['target_name'].tolist())
+
 @st.cache_data
 def fetch_all_species():
     df_JPL = fetch_JPL_species()
@@ -430,31 +437,8 @@ def search_molecules(searchterm: str):
     matches = df[df['name'].str.contains(searchterm, case=False, na=False)]
     return [(f"{row['name']} ({row['catalog']} {row['tag']})", int(row['tag'])) for _, row in matches.iterrows()]
 
-# @st.cache_data(ttl=3600)  # 1時間キャッシュ
-def search_alma_sources(prefix):
-    if len(prefix) < 3:  # 少ない文字数では検索しない
-        return []
-    
-    # TAPクエリで前方一致検索 (LIKE 'G028%')
-    # 重複を除いて上位10件程度を取得
-    # query = f"""
-    # SELECT DISTINCT target_name 
-    # FROM alma.asax_observation 
-    # WHERE target_name LIKE '%{prefix}%' 
-    # AND rownum <= 10
-    # """
-
-    query = f"""
-    SELECT DISTINCT target_name 
-    FROM alma.asax_observation 
-    WHERE target_name LIKE '%{prefix}%' 
-    """
-
-    try:
-        results = Alma.query_tap(query)
-        return results['target_name'].tolist()
-    except:
-        return []
+if "target_list" not in st.session_state:
+    st.session_state.target_list = fetch_all_target_names()
 
 if "alma_query_results" not in st.session_state:
     st.session_state.alma_query_results = None
@@ -465,9 +449,10 @@ st.sidebar.title("Search Settings")
 
 # 1. 天体設定
 source_name = st.sidebar.text_input("Source Name", "")
-# alma_source_name = st.sidebar.text_input("ALMA source name", "")
+alma_source_name = st.sidebar.text_input("ALMA source name", "")
 # target_list = search_alma_sources(alma_source_name)
 # st.write(target_list)
+coordinate_RADec = st.sidebar.text_input("R.A. Dec.", "")
 search_radius_str = st.sidebar.text_input("Search Radius (arcmin)", value=1.0)
 # systemic_velocity_str = st.sidebar.text_input("Source Velocity (km/s)", placeholder="e.g., 2.8")
 
@@ -475,6 +460,13 @@ search_radius_str = st.sidebar.text_input("Search Radius (arcmin)", value=1.0)
 #     return search_alma_sources(searchterm) if searchterm else []
 
 # # サイドバーに設置
+# st.sidebar.header("Search Settings")
+# selected_target = st.sidebar.selectbox(
+#     "Select or Type Target Name",
+#     options=st.session_state.target_list,
+#     index=None,
+#     placeholder="Search targets..."
+# )
 # with st.sidebar:
 #     selected_source = st_searchbox(
 #         search_alma_source_names,
@@ -484,8 +476,8 @@ search_radius_str = st.sidebar.text_input("Search Radius (arcmin)", value=1.0)
 #         placeholder=""
 #     )
 
-#     if selected_source:
-#         st.sidebar.success(f"Selected: **{selected_source}**")
+    # if selected_source:
+    #     st.sidebar.success(f"Selected: **{selected_source}**")
 
 colmin, colmax = st.sidebar.columns(2)
 angres_min_str = colmin.text_input("Min. Ang. Res. (arcsec)", value=0.0)
@@ -509,25 +501,24 @@ if st.sidebar.button("Search Archive", type="primary"):
     # AstroqueryでALMA Archiveを検索
     with st.sidebar.spinner("Searching ALMA Science Archive..."):
         # ここで Alma.query_object 等を叩く
-        # if source_name != "":
-        query_results_full = ASA_query.query_region(
-            source_name,
-            radius=float(search_radius_str) * u.arcmin,
-            public=None,
-            band_list=selected_bands
-        )
-        # else:
-        #     query_results_full = []
-        #     for source in target_list:
-        #         _query_results = ASA_query.query(
-        #             {
-        #                 "target_name": alma_source_name,
-        #                 "band_list": selected_bands
-        #             }
-        #         )
-        #         query_results_full.append(_query_results)
-            
-        #     query_results_full = vstack(query_results_full)
+        if alma_source_name != "":
+            target_list = [name for name in st.session_state.target_list if alma_source_name in name]
+            # query_results_full = []
+            # for source in targets:
+            query_results_full = ASA_query.query(
+                {
+                    "target_name": target_list,
+                    "band_list": selected_bands
+                }
+            )
+        else:
+            source = SkyCoord(coordinate_RADec, frame="icrs") if coordinate_RADec != "" else source_name
+            query_results_full = ASA_query.query_region(
+                source,
+                radius=float(search_radius_str) * u.arcmin,
+                public=None,
+                band_list=selected_bands
+            )
         
         # limit angular/velocity resolution
         condition = (query_results_full["spatial_resolution"] >= float(angres_min_str)) & (query_results_full["spatial_resolution"] <= float(angres_max_str))

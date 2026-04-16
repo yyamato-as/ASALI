@@ -303,9 +303,9 @@ def fetch_JPL_species():
 def read_JPL_partition_function(filename, tag):
     tbl = get_JPL_table(filename)
 
-    temps = np.array([300, 225, 150, 75, 37.5, 18.75, 9.375])
+    temps = np.array([300, 225, 150, 75, 37.5, 18.75, 9.375])[::-1]
     Qvals = tbl[tbl["tag"] == tag]
-    Qvals = np.array(list(Qvals[0])[3:-1])
+    Qvals = np.array(list(Qvals[0])[3:-1])[::-1]
     # print(tbl)
     return temps[~np.isnan(Qvals)], 10 ** Qvals[~np.isnan(Qvals)]
 
@@ -358,9 +358,9 @@ def fetch_CDMS_species():
 def read_CDMS_partition_function(filename, tag):
     tbl = get_CDMS_table(filename)
 
-    temps = np.array([1000, 500, 300, 225, 150, 75, 37.5, 18.75, 9.375, 5.000, 2.725])
+    temps = np.array([1000, 500, 300, 225, 150, 75, 37.5, 18.75, 9.375, 5.000, 2.725])[::-1]
     Qvals = tbl[tbl["tag"] == tag]
-    Qvals = np.array(list(Qvals[0])[3:])
+    Qvals = np.array(list(Qvals[0])[3:])[::-1]
     # print(tbl)
     return temps[~np.isnan(Qvals)], 10 ** Qvals[~np.isnan(Qvals)]
 

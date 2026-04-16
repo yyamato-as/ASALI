@@ -358,7 +358,7 @@ def fetch_CDMS_species():
 def read_CDMS_partition_function(filename, tag):
     tbl = get_CDMS_table(filename)
 
-    temps = np.array([100, 500, 300, 225, 150, 75, 37.5, 18.75, 9.375, 5.000, 2.725])
+    temps = np.array([1000, 500, 300, 225, 150, 75, 37.5, 18.75, 9.375, 5.000, 2.725])
     Qvals = tbl[tbl["tag"] == tag]
     Qvals = np.array(list(Qvals[0])[3:])
     # print(tbl)

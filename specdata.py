@@ -5,6 +5,8 @@ import astropy.constants as ac
 import numpy as np
 from scipy.interpolate import interp1d
 from astropy.io import ascii
+from scipy.interpolate import UnivariateSpline, make_splrep
+
 
 h = ac.h.cgs.value
 c = ac.c.cgs.value
@@ -35,7 +37,8 @@ class PartitionFunction:
     def _get_function(self):
         T = self.T[~np.isnan(self.Q)]
         Q = self.Q[~np.isnan(self.Q)]
-        return interp1d(T, Q, kind="cubic", fill_value="extrapolate")
+        # return interp1d(T, Q, kind="cubic", fill_value="extrapolate")
+        return make_splrep(T, Q, k=min(3, len(T)-1))
 
 
 def wavenumber_to_Kelvin(wavenumber):
